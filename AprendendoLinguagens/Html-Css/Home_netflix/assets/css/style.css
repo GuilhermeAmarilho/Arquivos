@@ -161,9 +161,7 @@ header .navegacao{
 }
 
 .play{
-    position: absolute;
-    bottom: 50px;
-    left: 100px;
+    margin-bottom: 3vw;
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
@@ -254,5 +252,4 @@ header .navegacao{
         font-size: 1em;
         bottom: 30px;
     }
-    .conteudo
 }
