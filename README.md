@@ -1,10 +1,17 @@
-# Projetos e arquivos 
+# Arquivos e trabalhos
 
 ## Arquivos criados durante minha vida acadêmica
 
 ### Aprendendo linguagens
 
 * [Aprendendo C](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C)
+  * [Exercicios basicos](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Exercicios_basicos)
+  * [Matriz e Vetor](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Matriz_e_Vetor)
+  * [Numeros random](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Numero_random)
+  * [Pi](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Pi)
+  * [Registros](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Registros)
+  * [Ponteiro](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Registro_ponteiro)
+  * [Projeto Trade](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Projeto_Trade)
   * [Projeto aproximacao MonteCarlo](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Projeto_aproximacao_MonteCarlo)
 
 <br>
