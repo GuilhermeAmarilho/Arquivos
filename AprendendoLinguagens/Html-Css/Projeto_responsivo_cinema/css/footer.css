@@ -1,0 +1,85 @@
+.baixo{
+  position: absolute;
+  width: 500px;
+  top: 925px;
+  margin-left: 73px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.titulo{
+  color: blue;
+  font-size: 15px;
+  font-family: cursive;
+}
+.baixo p{
+  font-size: 13px;
+  font-family: cursive;
+}
+h3{
+  font-size: 17px;
+  font-family: sans-serif;
+}
+.negrito{
+  font-size: 14px;
+  font-family: cursive;
+  font-weight: bold;
+}
+.lei p{
+  background: #FE9A2E;
+  width: 460;
+  font-size: 17px;
+  font-family: cursive;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 130px;
+}
+.lei1 p{
+  background: #FE9A2E;
+  font-size: 10px;
+  font-family: cursive;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 15px;
+}
+.info{
+  position: absolute;
+  top:910px;
+  margin-left: 650px;
+  width: 200px;
+}
+@media (max-width: 900px) {
+  .info{
+    position: absolute;
+    top:1400px;
+    margin-left: 250px;
+    width: 200px;
+  }
+}
+@media (max-width: 550px) {
+  .baixo{
+    top: 840px;
+    width: 350px;
+    margin-left: 40px;
+  }
+  .info{
+    position: absolute;
+    top:1520px;
+    margin-left: 90px;
+    width: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .baixo{
+    top: 1000px;
+    width: 350px;
+    margin-left: 40px;
+  }
+  .info{
+    position: absolute;
+    top:1700px;
+    margin-left: 90px;
+    width: 300px;
+  }
+}

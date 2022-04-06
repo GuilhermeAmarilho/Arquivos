@@ -1,0 +1,26 @@
+{% extends "template.html" %}
+{% block conteudo %}
+    <div>
+            {{ "Nome de usuario: " + session['login']  }}
+            <a href="/logout">Sair</a>
+    </div>
+    <br><br>
+    <table>
+        <tr>
+            <td>codigo</td>
+            <td>titulo</td>
+            <td>Descrição</td>
+        </tr>
+            <tr>
+                <td>{{ lis.cod }}</td>
+                <td>{{ lis.titulo }}</td>
+                <td>{{ lis.descricao}}</td>
+                {% if(lis.usuario.cod==session['cod']) %}
+                    <td><a href="/alterar/{{lis.cod}}">alterar</a></td>
+                    <td><a href="/deletar/{{lis.cod}}">deletar</a></td>
+                {% endif %}
+            </tr>
+    </table><br>
+    <button><a href="/inserir">Voltar para a lista</a></button>
+
+{% endblock %} 

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contagem de caracter</title>
+  </head>
+  <body>
+    <p align="center">
+
+    <script type="text/javascript">
+      var string,caracter,contador,resultado;
+      function countChar(string,caracter){
+        contador=0;
+        resultado=0
+        while (contador<string.length) {
+          if (string.charAt(contador)==caracter) {
+            resultado++
+          }
+          contador++
+        }
+        return resultado;
+      }
+      function teste(){
+        auxiliar=[["dbo","b"],["dbo","h"],["desenvolvimento baseado em objetos","e"],["Instituto","i"]];
+        for (resultado="",c1=0;c1<auxiliar.length;resultado+="countChar of "+auxiliar[c1][0]+", "+auxiliar[c1][1]+"  is  "+countChar(auxiliar[c1][0],auxiliar[c1][1])+'<br>',c1++){}
+        return resultado;
+      }
+      document.write('<strong>'+teste()+'</strong>');
+    </script>
+  </body>
+</html>

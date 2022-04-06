@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .navbar {
+                overflow: hidden;
+                background-color:black;
+                width: 102%;
+                margin-left: -1%;
+                margin-top: -1%;
+            }
+            .navbar a {
+                float: right;
+                font-size: 20px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .dropdown {
+                float: left;
+                overflow: hidden;
+            }
+            .dropdown .dropbtn {
+                font-size: 20px;  
+                border: none;
+                outline: none;
+                color: white;
+                width: 140px;
+                padding-top: 14px;
+                padding-bottom: 5px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+            .navbar a:hover, .dropdown:hover .dropbtn {
+                background-color: #333;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: black;
+                min-width: 140px;
+                box-shadow: 0px 20px 20px 0px #333;
+                z-index: 1;
+            }
+            .dropdown-content a {
+                float: none;
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: center;
+            }
+            .dropdown-content a:hover {
+                background-color: #333;
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+        </style>
+    </head>
+<body>
+    <div class="navbar">
+        <a href="#">Pagina inicial</a>
+        <div class="dropdown">
+            <button class="dropbtn">Funcionario 
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Inserir</a>
+                <a href="#">Buscar</a>
+                <a href="#">Listar</a>
+            </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn">Departamento 
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Inserir</a>
+                <a href="#">Buscar</a>
+                <a href="#">Listar</a>
+            </div>
+        </div> 
+    </div>
+        <h1>ttestando</h1>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+div.center{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    margin: 0px;
+}
+div.color{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    border: 1px black solid;
+}
+div.col{
+    width: 195.56px;
+    margin-left: 4.44px;
+    height: 141.67px;
+    margin-top: 8.33px;
+}
+div.display{
+    position: relative;
+    width: 70px;
+    height: 100px;
+    left: 215px;
+    top: -140px;
+    border: 1px black solid;
+    background: white;
+    border-radius: 20%;
+}
+button.x{
+    width: 15px;
+    height: 15px;
+    font-size: 65%;
+    border-style: none;
+    color: white;
+    background: rgb(231, 72, 72);
+    border-radius: 20%;
+    border-top-right-radius: 0%;
+    position: relative;
+    top: -263px;
+    left: 285px;
+    padding: 0px;
+}
+button.definir{
+    position: relative;
+    width: 50px;
+    padding: 0px;
+    left: 207px;
+    top: -135px;
+    background: black;
+    color: white;
+    border-radius: 20%;
+}
+div.cor{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 8.33px;
+    border-radius: 50%;}
+div.cols{
+    width: 20px;
+    height: 133.33px;
+    position: relative;}
+div.col2{top: -141.67px;left: 24.44px;}div.col3{top: -275.01px;left: 48.88px;}
+div.col4{top: -408.35px;left: 73.32px;}div.col5{top: -541.69px;left: 97.76px;}
+div.col6{top: -675.03px;left: 122.2px;}div.col7{top: -808.37px;left: 146.64px;}
+div.col8{top: -941.71px;left: 171.08px;}
+div.red{background: red;}div.cadetblue{background: cadetblue;}
+div.aqua{background: aqua;}div.blue{background: blue;}
+div.blueviolet{background: blueviolet;}div.chocolate{background: chocolate;}
+div.darkgray{background: darkgray;}div.darkcyan{background: darkcyan;}
+div.firebrick{background: firebrick;}div.fuchsia{background: fuchsia;}
+div.gold{background: gold;}div.green{background: green;}
+div.gray{background: gray;}div.greenyellow{background: greenyellow;}
+div.gainsboro{background: gainsboro;}div.hotpink{background: hotpink;}
+div.indianred{background: indianred;}div.indigo{background: indigo;}
+div.khaki{background: khaki;}div.lawngreen{background: lawngreen;}
+div.lightcoral{background: lightcoral;}div.maroon{background: maroon;}
+div.mediumorchid{background: mediumorchid;}div.mediumturquoise{background: mediumturquoise;}
+div.mediumspringgreen{background: mediumspringgreen;}div.navajowhite{background: navajowhite;}
+div.navy{background: navy;}div.olive{background: olive;}
+div.olivedrab{background: olivedrab;}div.orange{background: orange;}
+div.orangered{background: orangered;}div.orchid{background: orchid;}
+div.palegreen{background: palegreen;}div.plum{background: plum;}
+div.peru{background: peru;}div.rebeccapurple{background: rebeccapurple;}
+div.salmon{background: salmon;}div.sienna{background: sienna;}
+div.slateblue{background: slateblue;}div.teal{background: teal;}

@@ -1,0 +1,41 @@
+div.topo2{
+  background: #3066CA;
+  height: 50px;
+}
+div.topo2 span{
+  color: white;
+  margin-left: 10%;
+  margin-top: 20px;
+  position: relative;
+  top: 30%;
+}
+div.topo2 ul{
+  margin: -5px 0 0 40%;
+}
+div.topo2 ul li{
+  display: inline;
+  padding-right: 8%;
+  color: white;
+  font-size: 12px;
+  font-family: cursive;
+}
+@media (max-width: 1050px) {
+  div.topo2{
+    text-align: center;
+  }
+  div.topo2 ul{
+    margin: 15px 0 0 10%;
+  }
+  div.topo2{
+    height: 60px;
+  }
+}
+@media (max-width: 550px){
+  div.topo2 span{
+    margin: 0;
+    top: 15%;
+  }
+  div.topo2 ul{
+    margin: 10px 0 0 0;
+  }
+}

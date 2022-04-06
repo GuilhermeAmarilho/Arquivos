@@ -1,0 +1,13 @@
+{% extends "template.html" %}
+{% block conteudo %}
+    <h1>faça login</h1>
+    <form action="/login" method="post">
+        <label>Login:</label>
+        <input type="login" name="login"required>
+        <br>
+        <label>Senha:</label>
+        <input type="password" name="senha" required>
+        <br>
+        <button type="submit">Entrar!</button>
+    </form>
+{% endblock %}  

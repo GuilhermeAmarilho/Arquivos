@@ -1,0 +1,98 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+section{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #ff4f8b, #dff1ff);
+}
+section::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+}
+
+section .color{
+    position: absolute;
+    filter: blur(150px);
+}
+section .color:nth-child(1){
+    background: #ff359b;
+    width: 100%;
+    height: 70%;
+    top: -60%;
+}
+section .color:nth-child(2){
+    background: #00d2ff;
+    width: 90%;
+    height: 50%;
+    bottom: -20%;
+    left: -30%;
+}
+section .color:nth-child(3){
+    background: #fffd87;
+    width: 20%;
+    height: 20%;
+    bottom: -15%;
+    right: 0;
+}
+
+ul{
+    position: relative;
+    display: flex;
+    z-index: 2;
+}
+ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+}
+ul li a{
+    text-decoration: none;
+    position: relative;
+    width: 7vw;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 3vw;
+    backdrop-filter: blur(5px);
+    transition: .7s;
+    overflow: hidden;
+}
+ul li a:hover{
+    transform: translateY(-30px);
+}
+ul li a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    transform: skewX(45deg) translateX(150px);
+    transition: 0.5s;
+}
+ul li a:hover::before{
+    transform: skewX(45deg) translateX(-150px);
+
+}

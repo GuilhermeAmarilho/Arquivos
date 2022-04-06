@@ -1,0 +1,112 @@
+# criar titulos h1, h2, h3
+<!-- <h1> -->
+
+## Título 2
+<!-- <h2> -->
+
+### Título 3
+
+<!-- <h3> -->
+
+#### Título 4
+<!-- <h4> -->
+
+##### Título 5
+<!-- <h5> -->
+
+###### Título 6
+<!-- <h6> -->
+
+------------------------------------
+
+### dando enfase ao conteúdo
+
+#### negrito
+
+**texto** ou __texto__
+
+#### itálico
+
+*texto* ou _texto_
+
+------------------------------------
+
+### inserção de links
+
+(www.google.com) ou [www.google.com]
+este sai em formato de texto simples, sem style
+
+ou link direto
+<www.google.com>
+este sai no formato de link padrão, com sublinhado
+
+------------------------------------
+
+### lista de itens
+
+* Item 1
+* Item 2
+* Item 3
+
+#### lista não ordenada, apenas com os marcadores
+
+1. Item 1
+2. Item 2
+3. Item 3
+
+#### lista ordenada, com a contagem de linhas
+
+------------------------------------
+
+### imagem
+
+![Alt ou título da imagem](URL da imagem)
+![foto de um computador](www.google.com/fotoDoComputador)
+
+------------------------------------
+
+### citação
+
+>esta é uma citação
+>aqui também é uma citação
+>Códigos de **negrito**, _itálico_ e <https://links.com> funcionam aqui.
+
+------------------------------------
+
+### Código
+
+`System.out.println("hello world!");`
+```codigo teste número 2```
+
+~~~txt
+código teste número 3
+código teste número 4
+código teste número 5 
+~~~
+
+~~~javascript
+Esta é uma linha de código em Javascript.
+~~~
+
+~~~php
+Esta é uma linha de código em PHP.
+~~~
+
+~~~html
+Esta é uma linha de código em HTML.
+~~~
+
+------------------------------------
+
+### tabelas
+
+| Exemplo   | Valor do exemplo |
+| --------- | ---------------- |
+| Exemplo 1 | R$ 10            |
+| Exemplo 2 | R$ 8             |
+| Exemplo 3 | R$ 7             |
+| Exemplo 4 | R$ 8             |
+
+| Alinhado a esquerda | Centralizado | Alinhado a direita |
+| :------------------ | :----------: | -----------------: |
+| Valor               |    Valor     |              Valor |

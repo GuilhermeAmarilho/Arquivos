@@ -1,0 +1,404 @@
+p.local{
+  position: absolute;
+  top: 215px;
+  margin-left: 10%;
+}
+h1{
+  position: absolute;
+  top: 180px;
+  margin-left: 10%;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+p.local a{
+  color: #848484;
+  font-size: 14px;
+}
+p.local {
+  color: #BDBDBD;
+  font-size: 14px;
+}
+div.cinema{
+  position: absolute;
+  top: 260px;
+  margin-left: 10%;
+  font-family: sans-serif;
+  color:#000000;
+}
+div.cinema span{
+  font-family: serif;
+  color: #A4A4A4;
+}
+ul.toposessao{
+  position: absolute;
+  top: 320px;
+  margin-left: 32px;
+  list-style: none;
+}
+ul.toposessao li{
+  display: inline;
+  border: 1px #848484 solid ;
+  background: #848484;
+  padding: 10.5px;
+  padding-bottom: 10.5px;
+  padding-left: 40px;
+  padding-right: 35px;
+  margin-right: -2px;
+  font-family: sans-serif;
+  color: white;
+}
+ul.toposessao li.selec{
+  border: 1px #3066CA solid ;
+  background: #3066CA;
+  font-family: sans-serif;
+  color: white;
+}
+div.data{
+  position: absolute;
+  top: -4px;
+  margin-left: 97%;
+}
+div.data img{
+  width: 28px;
+  height: 28px;
+  margin-right: 5px;
+}
+div.data p{
+  position: absolute;
+  top: -10px;
+  margin-left: 100%;
+}
+ul.filme{
+  margin-left: 100px;
+  position: absolute;
+  top: 353px;
+}
+ul.filme li.filme{
+  list-style: none;
+  margin-left: -68px;
+  padding-left: 25px;
+  border: 2px white solid;
+}
+h2{
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.tresd{
+  width: 80px;
+  text-align: center;
+}
+.tresd1{
+  width: 60px;
+  text-align: center;
+}
+.nomefilme{
+  width: 170px;
+}
+td.sessoes table{
+   width: 300px;
+   padding: 0px;
+   border-collapse: collapse;
+   height: 5px;
+}
+.sessoes table td{
+  font-size: 14px;
+}
+.sessoes table tr{
+  padding: 0px;
+  height: 7px;
+}
+.carrinho img{
+  width: 57px;
+  height: 57px;
+  padding: 0px;
+  margin: 0px;
+}
+.carrinho{
+  margin-top: -2px;
+  margin-bottom: -5px;
+  margin-right: -2px;
+  margin-left: -10px;
+}
+.carrinho1{
+    margin-top: -2px;
+    margin-bottom: -5px;
+    margin-right: -2px;
+    margin-left: -5px;
+}
+.carrinho1 img{
+  width: 57px;
+  height: 57px;
+  padding: 0px;
+  margin: 0px;
+}
+.idade img{
+  width: 57px;
+  height: 57px;
+  padding: 0px;
+  margin: 0px;
+}
+.idade{
+  margin-top: -4px;
+  margin-bottom: -7px;
+  margin-right: -2px;
+  margin-left: -1px;
+}
+.dolby img{
+  position: absolute;
+  top: 213px;
+  margin-left: -30px;
+}
+.cinepic img{
+  position: absolute;
+  top: 230px;
+}
+.tecnologias1{
+  padding-right: 6px;
+}
+.tecnologias2{
+  width: 159px;
+}
+.sessoes1{
+  padding-left: 24px;
+}
+li.salaespecial{
+  height: 60px;
+  list-style: none;
+  margin-left: -67px;
+  padding-left: 20px;
+}
+li.salaespecial span{
+  font-weight: bold;
+  color: white
+}
+li.salaespecial p{
+  color: white;
+  margin-top: 0px;
+  font-size: 14px;
+  font-family: sans-serif;
+  margin-bottom: 2vw;
+}
+@media (max-width:900px) {
+  ul.toposessao{
+    top: 280px;
+    margin-left: -10px;
+  }
+  ul.toposessao li{
+    padding: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 15px;
+  }
+  div.data img{
+    width: 20px;
+    height: 20px;
+  }
+  div.data p{
+    top: -13px;
+  }
+  ul.filme{
+    margin-left: 7%;
+    top: 330px;
+  }
+  ul.filme li.filme{
+    margin-left: -68px;
+    padding-left: 10px;
+    width: 650px;
+  }
+  h2{
+    font-size: 12px;
+  }
+  .tresd{
+    width: 40px;
+  }
+  .nomefilme{
+    width: 120px;
+  }
+  td.sessoes table{
+     width: 200px;
+  }
+  .sessoes table td{
+    font-size: 10px;
+  }
+  .sessoes1 table td{
+    font-size: 10px;
+  }
+  li.salaespecial{
+    height: 50px;
+  }
+  li.salaespecial p{
+    font-size: 12px;
+  }
+  .tresd img{
+    width: 25px;
+    height: 10px;
+  }
+  .dolby img{
+    top: 217px;
+    margin-left: -10px;
+    width: 100px;
+  }
+  .cinepic img{
+    top: 230px;
+    width: 60px;
+    height: 12px;
+    margin-left: 10px;
+  }
+}
+@media (max-width:670px) {
+  ul.toposessao{
+    margin-left: -5px;
+  }
+  ul.toposessao li{
+    padding: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-right: -2px;
+  }
+  div.data{
+    position: absolute;
+    top: 30px;
+    margin-left: 30%;
+  }
+  ul.filme{
+    margin-left: 7%;
+    top: 340px;
+  }
+  ul.filme li.filme{
+    padding-left: 5px;
+    width: 480px;
+  }
+  h2{
+    font-size: 12px;
+  }
+  .nomefilme{
+    width: 80px;
+  }
+  .genero{
+    font-size: 10px;
+  }
+  td.sessoes table{
+     width: 150px;
+  }
+  .sessoes table td{
+    font-size: 10px;
+  }
+  li.salaespecial{
+    height: 35px;
+  }
+  li.salaespecial p{
+    margin-top: 3px;
+    font-size: 9px;
+  }
+  .dolby img{
+    top: 232px;
+    margin-left: -24px;
+    width: 100px;
+  }
+  .cinepic img{
+    top: 250px;
+    margin-left: 00px;
+  }
+}
+@media (max-width:500px) {
+  h1{
+    top: 280px;
+    margin-left: 15%;
+  }
+  p.local{
+    top: 305px;
+  }
+  div.cinema{
+    top: 340px;
+    margin-left: 10%;
+    font-family: sans-serif;
+    color:#000000;
+  }
+  ul.toposessao{
+    top:370px;
+    margin-left: -20px;
+  }
+  ul.toposessao li{
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: -2px;
+    font-size: 12px;
+  }
+  div.data{
+    top: 25px;
+    margin-left: 30%;
+  }
+  ul.filme{
+    margin-left: 10%;
+    top: 440px;
+  }
+  ul.filme li.filme{
+    padding-left: 5px;
+    width: 380px;
+  }
+  h2{
+    font-size: 10px;
+  }
+  .nomefilme{
+    width: 70px;
+  }
+  .genero{
+    font-size: 9px;
+  }
+  td.sessoes table{
+     width: 100px;
+  }
+  .sessoes table td{
+    font-size: 10px;
+  }
+  li.salaespecial{
+    height: 35px;
+  }
+  li.salaespecial p{
+    margin-top: 3px;
+    font-size: 9px;
+  }
+  .dolby img{
+    top: 270px;
+    margin-left: -22px;
+    width: 100px;
+  }
+  .cinepic img{
+    top: 290px;
+    margin-left: 1px;
+  }
+  .carrinho{
+    margin-top: -2px;
+    margin-bottom: -5px;
+    margin-right: -2px;
+    margin-left: -10px;
+  }
+  .carrinho1{
+      margin-top: -2px;
+      margin-bottom: -5px;
+      margin-right: -2px;
+      margin-left: -5px;
+  }
+  .carrinho img{
+    width: 30px;
+    height: 30px;
+  }
+  .carrinho1 img{
+    width: 30px;
+    height: 30px;
+  }
+  .idade img{
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .idade{
+    margin-top: -4px;
+    margin-bottom: -7px;
+    margin-right: -2px;
+    margin-left: -1px;
+  }
+}

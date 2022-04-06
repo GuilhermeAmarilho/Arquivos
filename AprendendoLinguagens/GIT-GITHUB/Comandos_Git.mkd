@@ -1,0 +1,111 @@
+# Trabalhando com git
+
+## Configurações iniciais
+
+<https://git-smc.com/download>
+
+Git config --global user.email "guiamarilho1@outlook.com"
+Git config --global user.name "GuilhermeAmarilho"
+
+### Git init
+
+Dentro da pasta a ser utilizada, usar este comando iniciara o projeto
+
+-------------------------------------------------
+
+## *Adicionando e mandando arquivos*
+
+### Git add < filename >
+
+Adiciona o arquivo para ser postado.
+Podemos usar também:
+
+- Git add --a
+
+Para adicionar todos os arquivos, ou
+
+- Git add .
+
+Para adicionar todos os arquivos naquela pasta.
+
+- Git commit -am < mensagem >
+
+Adiciona todos os arquivos locais, e após, faz commit.
+
+### Git commit -m < mensagem >
+
+Envia o arquivo com uma mensagem.
+
+### Git log
+
+Eu vejo a linha do tempo do trabalho. (letra "Q" sai da workbench)
+
+### Git status
+
+Eu vejo o que foi modificado e o que se manteve igual a versão anterior.
+
+### Git show
+
+Mostra os arquivos que foram adicionados e commitados por ultimo.
+
+### Git pull
+
+Caso esteja trabalhando em time, este comando pega as alterações de código que os outros dev fizeram no código, pois se não, você iria apagar tudo que eles desenvolveram quando desse **git push**
+
+### Git checkout < numero id do log> -- < arquivo >
+
+Caso ocorra algum erro na produção e precise voltar atrás, dê um **git log**, encontre o momento antes do erro, guarde este id, e após, no git checkou, passe este id, com o nome do arquivo que quer recuperar.
+
+Isso também serve para recuperar arquivos deletados --
+
+-------------------------------------------------
+
+## Trabalhando com Linhas do tempo
+
+### Git branch
+
+Eu vejo todas as linhas do tempo
+
+### Git branch < nome da branch >
+
+Caso eu queria fazer novas alterações, sem modificar os arquivos principais
+Qualquer alteração feita aqui, será armazenada em uma pasta secundaria, não estará na página principal
+
+### Git branch -d < nome da branch >
+
+Deletando a branch
+
+A parte de branch é muito importante para adicionar funcionalidades ao programa, sem altera-lo inicialmente, apenas na versão final dessa funcionalidade
+
+### Git checkout < nome da branch >
+
+Assim eu mudo em que bloco estou trabalhando.
+
+- Master é o principal
+- Os outros, preciso fornecer um nome
+
+### Git merge < nome da branch>
+
+Adicionando o que está na linha do tempo secundária, a linha principal.
+
+-------------------------------------------------
+
+## Trabalhando com Repositório remoto
+
+Primeiro, preciso ir no github e criar o repositório, lá eu pego o link do repositório.
+
+### Git remote add origin < link do repositório >
+
+Aqui eu defini o local online para onde será enviado os arquivos.
+
+### Git remote -v
+
+Assim, eu vejo os repositórios, local e remoto.
+
+### Git push -u origin master
+
+Na primeira vez que eu for enviar os arquivos online, precisa criar a branch master lá, por isso é necessário este código apenas uma vez.
+
+## Git config credential.helper store
+
+Assim, ele armazena os dados de cresdenciais, caso esteja pedindo email e senha para cada push.

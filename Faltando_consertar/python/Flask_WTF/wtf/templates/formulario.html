@@ -1,0 +1,21 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as _ %}
+{% block content %}
+</div>
+    <div class="container">
+        <h1>Formulário</h1>
+        {% from "_errors.html" import render_field %}        
+        <form method="POST" action="/alterar" role="form">
+            {{ render_field(form.cod,value=pessoa.codigo) }}            
+            {{ render_field(form.nome,value=pessoa.nome) }}
+            {{ render_field(form.salario,value=pessoa.salario) }}
+            {{ render_field(form.senha)}}
+            {{form.sexo.label}}            
+            {{ render_field(form.sexo) }}
+            {{ render_field(form.num_filhos,value=pessoa.num_filhos)}}
+            {{ render_field(form.biografia,value=pessoa.biografia) }}
+            {{ render_field(form.login,value=pessoa.login) }}
+            {{ render_field(form.enviar, class="btn btn-primary mb-2")}}
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,505 @@
+<html>
+	<script>
+		//{ definindo variaveis
+		var num,seq,z,cont,nfase,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,cp1,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9,cp10,pal,conj,tampal,pontg,respu,x,conjusu,pe,pv,tam,traco,pontper,y,tp,psor,reem,preem,w,parar;
+		tampal=0;
+		parar=1;
+		fase=0;
+		pontg=0;
+		pontper=0;
+		respu="";
+		conjusu="";
+		reem="";
+		pv=-2;
+		pe=-2;
+		tam=0;
+		traco="";
+		y=0;
+		psor=0;
+		reem="";
+		cont2=0;
+		preem=""
+		//}
+		//{ randomizar o inicial
+		num="0123456789";
+		seq="";
+		z=0;
+		cont=0;
+		while	(cont!=10){
+			z=Math.floor(Math.random()*10)
+			if	(seq.indexOf(z)==-1){
+				seq+=z;
+				cont++;
+			}
+		}
+		//}
+		dif=parseInt(prompt("Informe a dificuldade desejada: \n1 - Facil 4 letras\n2 - Medio 5 e 6 letras \n3 - Dificil 7 e 8 letras"));
+		if	(dif==1){
+			pontg=0;
+			pontper=0;
+			//{ palavras e conjuntos
+			p1="tapo";
+			cp1=" ato, opa, poa, toa, apto, pato, topa,";
+			p2="ltaa";
+			cp2=" ala, ata, tal, alta, lata, tala,";
+			p3="alsa";
+			cp3=" ala, asa, las, sal, alas, sala,";
+			p4="iasd";
+			cp4=" ais, das, dia, ida, sai, dias, idas,";
+			p5="gaem";
+			cp5=" mae, ema, mea, game, gema, mega,";
+			p6="isma";
+			cp6=" ais, mas, mia, sai, sim, mais,";
+			p7="olba";
+			cp7=" alo, boa, loa, oba, ola, bola, loba,";
+			p8="ogla";
+			cp8=" gol, loa, ola, algo, galo, gola, lago,";
+			p9="aorm";
+			cp9=" aro, amo, mar, amor, moar, mora, roma,";
+			p10="imot";
+			cp10=" imo, mio, tio, tom, mito, timo,";
+			//}
+			cont=0;
+			while	(cont<=10){
+				fase=parseInt(seq.charAt(cont+1))
+				//{ definição 
+				if	(fase==1){
+					pal=p1;
+					conj=cp1;
+				}
+				if	(fase==2){
+					pal=p2;
+					conj=cp2;
+				}
+				if	(fase==3){
+					pal=p3;
+					conj=cp3;
+				}
+				if	(fase==4){
+					pal=p4;
+					conj=cp4;
+				}
+				if	(fase==5){
+					pal=p5
+					conj=cp5
+				}
+				if	(fase==6){
+					pal=p6
+					conj=cp6
+				}
+				if	(fase==7){
+					pal=p7
+					conj=cp7
+				}
+				if	(fase==8){
+					pal=p8
+					conj=cp8
+				}
+				if	(fase==9){
+					pal=p9
+					conj=cp9
+				}
+				if	(fase==0){
+					pal=p10
+					conj=cp10
+				}
+				//}
+				tampal=(conj.length);
+				pv=-2;
+				pe=-2;
+				tam=0;
+				respu=1;
+				conjusu="";
+				pontg=0;
+				pontper=0;
+				while	(pv!=-1&&pe!=-1){
+					pe=conj.indexOf(" ",pe+2);
+					pv=conj.indexOf(",",pv+2);
+					tam=pv-pe-1
+					conjusu+=" ";
+					while	(tam>0){
+						conjusu+="-";
+						tam--;
+					}
+					conjusu+=",";
+				}
+				conjusu=conjusu.substring(0,(conjusu.length)-2);
+				while	((pontg<tampal)&&((respu!=0)||(respu!=" 0,"))&&(parar!=0)){
+					respu=prompt("Informe sua tentativa :\nAs letras são "+pal+"\nPara reembaralhar digite 1"+"\n para sair digite 0"+"\n sua pontuação é de: "+(pontg-pontper)+ "\nAs palavras que faltam/já respondidas são : "+conjusu);
+					respu=respu.toLowerCase();
+					respu=" "+respu+",";
+					x=conj.indexOf(respu);
+					y=conjusu.indexOf(respu);
+					if	(respu==" 0,"||respu==" 1,"){
+						if	(respu==" 0,"){
+							parar=0
+						}
+						if	(respu==" 1,"){
+							psor=0;
+							reem="";
+							cont2=0;
+							for	(c=0;cont2!=pal.length;psor=Math.floor(Math.random()*pal.length)){
+								if	(reem.indexOf(psor)==-1){
+									reem+=psor;
+									cont2++;
+								}
+							}
+							preem="";
+							cont2=-1;
+							while	(preem.length<pal.length){
+								cont2++;
+								w=reem.charAt(cont2);
+								preem+=pal.charAt(w);
+							}
+							pal=preem;
+							pontper+=3;
+						}
+					}
+					else{
+						if	(y!=-1){
+							alert("A palavra digitada já foi adicionada!");
+							pontper=respu.length
+								
+						}
+						else{
+							if	(x!=-1){
+								traco="";
+								while	(((respu.length)-2)>traco.length){
+									traco+="-";
+								}
+								conjusu=conjusu.replace(" "+traco+",",respu)
+								pontg+=respu.length
+								conj=conj.replace(respu,"");
+								alert("A palavra digitada está correta!");
+							}
+							else{
+								alert("A palavra digitada está incorreta!");
+								pontper=respu.length
+							}
+						}	
+					}
+					
+				}
+				if	(respu==" 0,"){
+					cont+=11
+					alert("Sua pontuação foi de: "+(pontg-pontper)+" pontos\nAs palavras que faltaram foram: "+conj)
+				}
+				if	(conjusu.length==pontg){
+					alert("Parabens você gabaritou este nivel!")
+				}
+				cont++;
+			}
+		}
+		if	(dif==2){
+			pontg=0;
+			pontper=0;
+			//{ palavras e conjuntos
+			p1="actei";
+			cp1=" tai, ita, tia, ceia, cita, cite, eita, iate, teia, etica,";
+			p2="arcti";
+			cp2=" ira, ita, ria, tai, tia, cair, cita, tira, citar, ticar,";
+			p3=" mlaoc,";
+			cp3=" amo, cal, coa, com, mal, mol, oca, calo, cola, mola, calmo,";
+			p4="orcal";
+			cp4=" aro, cor, lar, oca, orca, calor, claro, colar, locar, coral,";
+			p5="aregr";
+			cp5=" era, agre, erar, gare, gear, raer, rega, gerar, regar, regra,";
+			p6="assrpe";
+			cp6=" epa, era, par, pra, ser, ares, eras, essa, pares, pressa, presa,";
+			p7="eixard";
+			cp7=" are, dar, dia, era, ida, rixa, ria, adir, idear, deixar,";
+			p8="rlugaj";
+			cp8=" lar, lua, rua, ura, grau, grua, gula, lugar, julgar, ruga,";
+			p9="olhist";
+			cp9=" lio, lis, sol, til, tio, isto, liso, silo, tios, hostil,";
+			p10="subcar";
+			cp10=" bar, cru, rua, sua, crua, cuba, busca, burca, curas, buscar, burcas,";
+			//}
+			cont=0;
+			while	(cont<=10){
+				fase=parseInt(seq.charAt(cont+1))
+				//{ definição 
+				if	(fase==1){
+					pal=p1;
+					conj=cp1;
+				}
+				if	(fase==2){
+					pal=p2;
+					conj=cp2;
+				}
+				if	(fase==3){
+					pal=p3;
+					conj=cp3;
+				}
+				if	(fase==4){
+					pal=p4;
+					conj=cp4;
+				}
+				if	(fase==5){
+					pal=p5
+					conj=cp5
+				}
+				if	(fase==6){
+					pal=p6
+					conj=cp6
+				}
+				if	(fase==7){
+					pal=p7
+					conj=cp7
+				}
+				if	(fase==8){
+					pal=p8
+					conj=cp8
+				}
+				if	(fase==9){
+					pal=p9
+					conj=cp9
+				}
+				if	(fase==0){
+					pal=p10
+					conj=cp10
+				}
+				//}
+				tampal=(conj.length);
+				pv=-2;
+				pe=-2;
+				tam=0;
+				respu=1;
+				conjusu="";
+				pontg=0;
+				pontper=0;
+				while	(pv!=-1&&pe!=-1){
+					pe=conj.indexOf(" ",pe+2);
+					pv=conj.indexOf(",",pv+2);
+					tam=pv-pe-1
+					conjusu+=" ";
+					while	(tam>0){
+						conjusu+="-";
+						tam--;
+					}
+					conjusu+=",";
+				}
+				conjusu=conjusu.substring(0,(conjusu.length)-2);
+				while	((pontg<tampal)&&((respu!=0)||(respu!=" 0,"))&&(parar!=0)){
+					respu=prompt("Informe sua tentativa :\nAs letras são : "+pal+"\nPara reembaralhar digite 1"+"\n para sair digite 0"+"\nsua pontuação é de: "+(pontg-pontper)+ "\nAs palavras que faltam/ já respondidas são : "+conjusu);
+					respu=respu.toLowerCase();
+					respu=" "+respu+",";
+					x=conj.indexOf(respu);
+					y=conjusu.indexOf(respu);
+					if	(respu==" 0,"||respu==" 1,"){
+						if	(respu==" 0,"){
+							parar=0
+						}
+						if	(respu==" 1,"){
+							psor=0;
+							reem="";
+							cont2=0;
+							for	(c=0;cont2!=pal.length;psor=Math.floor(Math.random()*pal.length)){
+								if	(reem.indexOf(psor)==-1){
+									reem+=psor;
+									cont2++;
+								}
+							}
+							preem="";
+							cont2=-1;
+							while	(preem.length<pal.length){
+								cont2++;
+								w=reem.charAt(cont2);
+								preem+=pal.charAt(w);
+							}
+							pal=preem;
+							pontper+=3;
+						}
+					}
+					else{
+						if	(y!=-1){
+							alert("A palavra digitada já foi adicionada!");
+							pontper=respu.length
+								
+						}
+						else{
+							if	(x!=-1){
+								traco="";
+								while	(((respu.length)-2)>traco.length){
+									traco+="-";
+								}
+								conjusu=conjusu.replace(" "+traco+",",respu)
+								pontg+=respu.length
+								conj=conj.replace(respu,"");
+								alert("A palavra digitada está correta!");
+							}
+							else{
+								alert("A palavra digitada está incorreta!");
+								pontper=respu.length
+							}
+						}	
+					}
+					
+				}
+				if	(respu==" 0,"){
+					cont+=11
+					alert("Sua pontuação foi de: "+(pontg-pontper)+" pontos\nAs palavras que faltaram foram: "+conj)
+				}
+				if	(conjusu.length==pontg){
+					alert("Parabens você gabaritou este nivel!")
+				}
+				cont++;
+			}
+		}
+		if	(dif==3){
+			pontg=0;
+			pontper=0;
+			//{ palavras e conjuntos
+			p1="dcoount";
+			cp1=" oco, onu, coto, dono, duto, toco, todo, tono, tudo, conto, douto, docto, conduto, contudo,";
+			p2="atromsr";
+			cp2=" amo, aro, mas, ora, amor, aros, mato, oras, ratos, ramos, morsa, toma, mostra, mostrar,";
+			p3="zeaetcr";
+			cp3=" era, ter, acer, acre, arte, cear, cera, reta, reza, ereta, certa, certeza, treze, tecer,";
+			p4="eocesrs";
+			cp4=" eco, ore, ser, sos, ecos, esse, reco, seco, sere, cores, seres, secos, escore, recesso,";
+			p5="fnpoaro";
+			cp5=" ano, aro, opa, ora, par, por, pra, afro, apor, faro, fora, foro, nora, profano,";
+			p6="iasranal";
+			cp6=" ais, ala, ali, nas, alas, anal, asir, asna, liras, nasal, sarna, sair, salina, analisar,";
+			p7="irreftel";
+			cp7=" ele, lei, ler, rei, rir, tel, ter, fiel, frei, tele, elite, ferir, frete, refletir,";
+			p8="rtpoesie";
+			cp8=" rei, isto, piso, pois, pose,reis, reso, rios, sete, oeste, potes, pretos, espeto, respeito,";
+			p9="iaganlao";
+			cp9=" ala, ali, ano, agno, alga, algo, galo, anglo, lagoa, longa, liga, anil, gaiola, analogia,";
+			p10="osvoirgo";
+			cp10=" ovo, rio, vir, giro, ogro, oiro, ovos, rios, riso, soro, viso, visor, iroso, vigoroso,";
+			//}
+			cont=0;
+			while	(cont<=10){
+				fase=parseInt(seq.charAt(cont+1))
+				//{ definição 
+				if	(fase==1){
+					pal=p1;
+					conj=cp1;
+				}
+				if	(fase==2){
+					pal=p2;
+					conj=cp2;
+				}
+				if	(fase==3){
+					pal=p3;
+					conj=cp3;
+				}
+				if	(fase==4){
+					pal=p4;
+					conj=cp4;
+				}
+				if	(fase==5){
+					pal=p5
+					conj=cp5
+				}
+				if	(fase==6){
+					pal=p6
+					conj=cp6
+				}
+				if	(fase==7){
+					pal=p7
+					conj=cp7
+				}
+				if	(fase==8){
+					pal=p8
+					conj=cp8
+				}
+				if	(fase==9){
+					pal=p9
+					conj=cp9
+				}
+				if	(fase==0){
+					pal=p10
+					conj=cp10
+				}
+				//}
+				tampal=(conj.length);
+				pv=-2;
+				pe=-2;
+				tam=0;
+				respu=1;
+				conjusu="";
+				pontg=0;
+				pontper=0;
+				while	(pv!=-1&&pe!=-1){
+					pe=conj.indexOf(" ",pe+2);
+					pv=conj.indexOf(",",pv+2);
+					tam=pv-pe-1
+					conjusu+=" ";
+					while	(tam>0){
+						conjusu+="-";
+						tam--;
+					}
+					conjusu+=",";
+				}
+				conjusu=conjusu.substring(0,(conjusu.length)-2);
+				while	((pontg<tampal)&&((respu!=0)||(respu!=" 0,"))&&(parar!=0)){
+					respu=prompt("Informe sua tentativa :\nAs letras são "+pal+"\nPara reembaralhar digite 1"+"\n para sair digite 0"+"\n sua pontuação é de: "+(pontg-pontper)+ "\nAs palavras que faltam/ já respondidas são : "+conjusu);
+					respu=respu.toLowerCase();
+					respu=" "+respu+",";
+					x=conj.indexOf(respu);
+					y=conjusu.indexOf(respu);
+					if	(respu==" 0,"||respu==" 1,"){
+						if	(respu==" 0,"){
+							parar=0
+						}
+						if	(respu==" 1,"){
+							psor=0;
+							reem="";
+							cont2=0;
+							for	(c=0;cont2!=pal.length;psor=Math.floor(Math.random()*pal.length)){
+								if	(reem.indexOf(psor)==-1){
+									reem+=psor;
+									cont2++;
+								}
+							}
+							preem="";
+							cont2=-1;
+							while	(preem.length<pal.length){
+								cont2++;
+								w=reem.charAt(cont2);
+								preem+=pal.charAt(w);
+							}
+							pal=preem;
+							pontper+=3;
+						}
+					}
+					else{
+						if	(y!=-1){
+							alert("A palavra digitada já foi adicionada!");
+							pontper=respu.length
+								
+						}
+						else{
+							if	(x!=-1){
+								traco="";
+								while	(((respu.length)-2)>traco.length){
+									traco+="-";
+								}
+								conjusu=conjusu.replace(" "+traco+",",respu)
+								pontg+=respu.length
+								conj=conj.replace(respu,"");
+								alert("A palavra digitada está correta!");
+							}
+							else{
+								alert("A palavra digitada está incorreta!");
+								pontper=respu.length
+							}
+						}	
+					}
+				}
+				if	(respu==" 0,"){
+					cont+=11
+					alert("Sua pontuação foi de: "+(pontg-pontper)+" pontos\nAs palavras que faltaram foram: "+conj)
+				}
+				if	(conjusu.length==pontg){
+					alert("Parabens você gabaritou este nivel!")
+				}
+				cont++;
+			}
+		}
+	</script>
+</html>

@@ -1,0 +1,14 @@
+td{
+ padding: 25px;
+ border-style:solid;
+ border-color: red;
+}
+.fuga{
+  border-style:hidden;
+}
+.inteira{
+  background-color: #FFFF00;
+}
+.meia{
+  background-color: #CC3399 ;
+}
