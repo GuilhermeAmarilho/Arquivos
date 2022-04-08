@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "ArvoreBinaria.h" //inclui os Protótipos
+#include "ArvoreBinaria.h" //inclui os ProtÃ³tipos
 
 struct NO{
     int info;
@@ -27,7 +27,7 @@ void libera_NO(struct NO* no){
 void libera_ArvBin(ArvBin* raiz){
     if(raiz == NULL)
         return;
-    libera_NO(*raiz);//libera cada nó
+    libera_NO(*raiz);//libera cada nÃ³
     free(raiz);//libera a raiz
 }
 
@@ -51,7 +51,7 @@ int insere_ArvBin(ArvBin* raiz, int valor){
             ant = atual;
             if(valor == atual->info){
                 free(novo);
-                return 0;//elemento já existe
+                return 0;//elemento jÃ¡ existe
             }
 
             if(valor > atual->info)
@@ -80,8 +80,8 @@ struct NO* remove_atual(struct NO* atual) {
         no1 = no2;
         no2 = no2->dir;
     }
-    // no2 é o nó anterior a r na ordem e-r-d
-    // no1 é o pai de no2
+    // no2 Ã© o nÃ³ anterior a r na ordem e-r-d
+    // no1 Ã© o pai de no2
     if(no1 != atual){
         no1->dir = no2->esq;
         no2->esq = atual->esq;
@@ -90,7 +90,6 @@ struct NO* remove_atual(struct NO* atual) {
     free(atual);
     return no2;
 }
-// http://www.ime.usp.br/~pf/algoritmos/aulas/binst.html
 int remove_ArvBin(ArvBin *raiz, int valor){
     if(raiz == NULL)
         return 0;
