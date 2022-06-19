@@ -1,0 +1,69 @@
+https://www.youtube.com/watch?v=llF6vD-RljE&ab_channel=RafaellaBallerini
+Landing page HTML + CSS
+
+https://www.youtube.com/watch?v=r9buAwVBDhA&ab_channel=ManualdoDev
+Jogo do mário
+
+https://www.youtube.com/watch?v=nUUsUAPEjFc&ab_channel=OnlineTutorials
+Admin page HTML + CSS
+
+https://www.youtube.com/watch?v=dtKciwk_si4
+10 Projetos em javascript
+1 - Contador de tempo 
+2 - App quizz
+3 - App de receitas
+4 - App de notas
+5 - App de tarefas
+6 - App de movies
+7 - Perfil de github
+8 - Site de desenho
+9 - Gerador de senhas
+10 - App de clima
+
+https://www.youtube.com/watch?v=PKMm-cHe56g&ab_channel=VictorLima-GuiadoProgramador
+Curso básico de C#
+
+https://www.youtube.com/watch?v=TVFu4-Kd4oM&ab_channel=Mr.WebDesigner
+Site de café;
+
+https://www.youtube.com/watch?v=ShPPkZEeLPo
+Hamburguer animado CSS;
+
+https://www.youtube.com/watch?v=lPJVi797Uy0
+Desenhos curvos em CSS;
+
+https://www.youtube.com/watch?v=QPxYdbbCjhQ
+Site de venda de relógios;
+
+https://www.youtube.com/watch?v=72CL_yne8y0&ab_channel=Mr.WebDesigner
+Site criativo;
+
+https://www.youtube.com/watch?v=HrZSQpxfIxw
+Site de natal;
+
+https://www.youtube.com/watch?v=vQAvjof1oe4&ab_channel=KevinPowell
+Grids e flexbox
+
+https://www.youtube.com/watch?v=J42SZXS-_Qo&ab_channel=ServetGulnaroglu
+Jogo da cobrinha
+
+https://www.youtube.com/watch?v=WJqd8Sof7lE&ab_channel=OnlineTutorials
+Carro se movendo c/ CSS
+
+https://www.youtube.com/watch?v=-c4aCe1EawA&ab_channel=OnlineTutorials
+List hover css
+
+https://www.youtube.com/watch?v=bDngcOQ8Img
+Car market website html + css
+
+https://www.youtube.com/watch?v=vyqbNFMDRGQ
+Jogo usando Canvas apenas
+
+https://www.youtube.com/watch?v=5RIFrZEjURA&ab_channel=Bedimcode
+Website responsivo de restaurante
+
+https://www.youtube.com/watch?v=zJE-ze4TfXc&ab_channel=CrypticalCoder
+Portifólio pessoal HTML + JS + CSS
+
+https://www.youtube.com/watch?v=mq0xJxOTiYo
+Portifólio básico 
