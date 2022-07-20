@@ -1,12 +1,9 @@
-
-
 .projetos__novos {
     position: relative;
     width: 100vw;
     height: 300px;
     margin-top: 15vh;
 }
-
 .projetos__novos > img {
     position: absolute;
     top: 0;
@@ -36,7 +33,6 @@
         opacity: 0;
     }
 }
-
 .projetos__novos img:nth-child(2) {animation-delay: 2s;}
 .projetos__novos img:nth-child(3) {animation-delay: 4s;}
 .projetos__novos img:nth-child(4) {animation-delay: 6s;}
