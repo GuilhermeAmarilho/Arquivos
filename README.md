@@ -1,8 +1,6 @@
-# Arquivos e trabalhos
+# Aprendendo linguagens
 
 ## Arquivos criados durante minha vida acadêmica
-
-### Aprendendo linguagens
 
 * [Aprendendo C](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C)
   * [Exercicios basicos](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Exercicios_basicos)
