@@ -2,23 +2,57 @@
 
 ## Arquivos criados durante minha vida acadêmica
 
-* [Aprendendo C](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C)
-  * [Exercicios basicos](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Exercicios_basicos)
-  * [Matriz e Vetor](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Matriz_e_Vetor)
-  * [Numeros random](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Numero_random)
-  * [Pi](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Pi)
-  * [Registros](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Registros)
-  * [Ponteiro](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Registro_ponteiro)
-  * [Projeto Trade](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Projeto_Trade)
-  * [Projeto aproximacao MonteCarlo](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/C/Projeto_aproximacao_MonteCarlo)
+<details>
+	<summary>
+		<b> 
+			<img src="img/c.png" width="25px"/>
+			Aprendendo C
+		</b>
+	</summary>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/C/Exercicios_basicos/exercicios_basicos.c" style="margin-left:10%">Exercícios básicos</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/C/Matriz_e_Vetor/exercicios_matrizes_vetores.c" style="margin-left:10%">Matrizes e vetores</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/C/Numero_random/exercicio_random.c" style="margin-left:10%">Números randomicos</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/C/Registros/exercicio_carro_sem_ponteiro.c" style="margin-left:10%">Registros</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/C/Registro_ponteiro/exercicio_escola_Ponteiro.c" style="margin-left:10%">Ponteiro</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/C/Projeto_Trade/trade.c" style="margin-left:10%">Projeto Trade</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/C/Projeto_aproximacao_MonteCarlo/RELAT%C3%93RIO%20DE%20TRABALHO%20FINAL.c" style="margin-left:10%">Projeto aproximacao MonteCarlo</a>
+	<br>
+	<a href="" style="margin-left:10%"></a>
+	<br>
+</details>
 
 <br>
 
-* [Aprendendo GIT - GITHUB](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/GIT-GITHUB)
-  * [Aprendendo GIT - GITHUB (Arquivo)](https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/GIT-GITHUB/Comandos_Git.mkd)
+
+<details>
+	<summary>
+		<b> 
+			<img src="img/github.png" width="25px"/>
+			Aprendendo GIT - GITHUB
+		</b>
+	</summary>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/GIT-GITHUB/Comandos_Git.mkd" style="margin-left:10%">Comandos</a>
+	<br>
+</details>
 
 <br>
 
+<details>
+	<summary>
+		<b> 
+			<img src="img/github.png" width="25px"/>
+			Aprendendo GIT - GITHUB
+		</b>
+	</summary>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/GIT-GITHUB/Comandos_Git.mkd" style="margin-left:10%">Comandos</a>
+	<br>
+</details>
 * [Aprendendo HTML - CSS](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css)
   * [Botoes animado](https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Botoes_animado/)
   * [Carregamento neon](https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Carregamento_neon/)
@@ -31,6 +65,17 @@
   * [Texto 3d](https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Texto_3d/)
   
 <br>
+
+<details>
+	<summary>
+		<b> 
+			<img src="img/github.png" width="25px"/>
+			Aprendendo GIT - GITHUB
+		</b>
+	</summary>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/GIT-GITHUB/Comandos_Git.mkd" style="margin-left:10%">Comandos</a>
+	<br>
+</details>
 
 * [Aprendendo Java](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java)
   * [Vetores](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Vetores)
@@ -47,17 +92,26 @@
 
 <br>
 
-* [Aprendendo JQuery](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Jquery)
-  * [Inicializando](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Jquery/Get_Starter) 
-  * [Imprimindo Mensagem](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Jquery/Imprimindo_mensagem) 
-  * [Animando div](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Jquery/Animando_div) 
-  * [Manipulacao_eventos](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Jquery/Manipulacao_eventos) 
-  * [Json - Exemplo](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Jquery/Exemplo_json) 
-  * [Json - Carregando](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Jquery/Carregando_JSon) 
-  * [Carregando dados - AJAX + JQuery](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Jquery/Carregando_dados_AJAX_JQuery) 
-  * [Jquery + NPM](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Jquery/Aprendendo_jquery_npm) 
-
-<br>
+<details>
+	<summary>
+		<b> 
+			<img src="img/jquery.png" width="25px"/>
+			Aprendendo JQuery
+		</b>
+	</summary>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Jquery/Get_Starter/Funcao_base.js" style="margin-left:10%">Introdução</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Jquery/Imprimindo_mensagem/jquery/impressao.js" style="margin-left:10%">Imprimindo mensagem</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Jquery/Animando_div/index.html" style="margin-left:10%">Animações básicas</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Jquery/Manipulacao_eventos/index.html" style="margin-left:10%">Manipulação de eventos</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Jquery/Exemplo_json/Exemplo_dados_artistas.js" style="margin-left:10%">Exemplos de JSON</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Jquery/Carregando_JSon/index.html" style="margin-left:10%">Carregar JSON com JQuery</a>
+	<br>
+</details>
 
 <br>
 

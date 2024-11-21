@@ -1,25 +1,49 @@
-<html>
-<head>
-<title>Trabalhando com JSON</title>
-   <script type="text/javascript"
-   src="../jquery/node_modules/jquery/dist/jquery.js"></script>
-   <script type="text/javascript" language="javascript">
-   $(document).ready(function() {
-      $("#driver").click(function(event){
-          $.getJSON('ddados.json', function(v) {
-             $('#stage').html('<p> Filme 1: ' + v.filme1 + '</p>');            $('#stage').append('<p>Filme 2 : ' + v.filme2+ '</p>');
-        $('#stage').append('<p> Filme 3: ' + v.filme3+ '</p>');
-          });
-        //   Dá erro por politica de privacidade do navegador, pois puxa um arquivo direto do endereço estático, o que permite invasão de dados
-      });
-   });
-   </script>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Trabalhando com JSON</title>
+      <style>
+         div#container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 80%;
+            margin-left: 10%;
+         }
+         div#container img{
+            width: 25vw;
+            height: 25vw;
+            border: 2px solid black;
+            border-radius: 50%;
+         } 
+         p#name{
+            font-size: 1.5em;
+         }
+      </style>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   </head>
 <body>
-   <p>Clique no botão para carregar os dados</p>
-   <div id="stage" style="background-color:red;">
-          Filmes:
-   </div>
-   <input type="button" id="driver" value="Carregar " />
-</body>
+   <div id="container"></div>
+   <script type="text/javascript" language="javascript">
+
+      $.ajax({
+         url: 'https://randomuser.me/api/',
+         dataType: 'json',
+         success: function(data) {
+            console.log(data['results'][0]);
+            nome = data['results'][0]['name']['first']+" "+data['results'][0]['name']['last']
+            $('#container').append('<img src="' + data['results'][0]['picture']['large'] + '" alt="Random Image">');
+            $('#container').append(
+               '<p id="name">'
+               +data['results'][0]['name']['first']
+               +" "
+               +data['results'][0]['name']['last']
+               +'</p>'
+            )
+         }
+      });
+   </script>
 </html>
