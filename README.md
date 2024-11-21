@@ -89,4 +89,16 @@
   * [Tabela_produto](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_produto)
   * [Tabela_uber](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_uber)
 
-* Aprendendo python
+* [Aprendendo python](AprendendoLinguagens\Python)
+  * [Entrada_E_Saida](AprendendoLinguagens\Python\Entrada_E_Saida\main.py)
+  * [Estrutura_Condicional](AprendendoLinguagens\Python\Estrutura_Condicional\main.py)
+  * [Extrutura_De_Repeticao](AprendendoLinguagens\Python\Extrutura_De_Repeticao\main.py)
+  * [Strings](AprendendoLinguagens\Python\Strings\main.py)
+  * [Sequencias](AprendendoLinguagens\Python\Sequencias\main.py)
+  * [Listas](AprendendoLinguagens\Python\Listas\main.py)
+  * [Procedimentos](AprendendoLinguagens\Python\Procedimentos\main.py)
+  * [Funcoes](AprendendoLinguagens\Python\Funcoes\main.py)
+  * [Matrizes](AprendendoLinguagens\Python\Matrizes\main.py)
+  * [Arquivos](AprendendoLinguagens\Python\Arquivos\main.py)
+  * [Orientacao_A_Objetos](AprendendoLinguagens\Python\Orientacao_A_Objetos\main.py)
+  * [Pyxel](AprendendoLinguagens\Python\Pyxel\main.py)
