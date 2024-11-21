@@ -59,46 +59,108 @@
 
 <br>
 
-* [Aprendendo JavaScript](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js)
-  * [Strings](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Strings)
-  * [Numeros Complexos](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Numeros_complexos)
-  * [Lista de exercícios](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Exercicios_JS)
-  * [Registros](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Registros)
-  * [Orientação a objetos](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Objetos)
-  * [Eventos básicos](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Eventos_basico)
-  * [Eventos cinema](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Eventos_cinema)
-  * [API Google Maps](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/GoogleMaps)
-  * [Projeto - Letroca](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Projeto_Letroca)
-  * [Projeto - UNO](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Uno)
+<br>
+
+<details>
+	<summary>
+		<b> 
+			<img src="img/javascript.png" width="25px"/>
+			Aprendendo JavaScript
+		</b>
+	</summary>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Strings/contagem%20de%20letra.html" style="margin-left:10%">Strings</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Numeros_complexos/NumerosComplexos.js" style="margin-left:10%">Numeros complexos</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Exercicios_JS" style="margin-left:10%">Lista de xercicios</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Registros" style="margin-left:10%">Registros</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Objetos" style="margin-left:10%">Orientação de objetos</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Eventos_basico/index.html" style="margin-left:10%">Eventos básico</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Eventos_cinema/trabalhodocinema.html" style="margin-left:10%">Eventos cinema</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/GoogleMaps/mapa.html" style="margin-left:10%">API Google Maps</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Projeto_Letroca/trabalho%20letroca.html" style="margin-left:10%">Projeto letroca</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Uno/uno%20modo%202.html" style="margin-left:10%">Projeto final - Uno</a>
+	<br>
+</details>
 
 <br>
 
-* [Aprendendo MarkDown](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Markdown)
-  * [Aprendendo MarkDown](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Markdown/Comandos_MarkDown.mkd)
-  
+<details>
+	<summary>
+		<b> 
+			<img src="img/markdown.png" width="25px"/>
+			Aprendendo MarkDown
+		</b>
+	</summary>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Markdown/Comandos_MarkDown.mkd" style="margin-left:10%">Aprendendo MarkDown</a>
+</details>
+
 <br>
 
-* [Aprendendo SQL](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql)
-  * [Aprendendo Consultas](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Aprendendo_consultas)
-  * [Tabela amigos](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_amigos)
-  * [Tabela empresa](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_empresa)
-  * [Tabela_escola](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_escola)
-  * [Tabela EuCosinheiro](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_EuCosinheiro)
-  * [Tabela EverNote](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_EverNote)
-  * [Tabela_loja](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_loja)
-  * [Tabela_produto](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_produto)
-  * [Tabela_uber](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_uber)
+<details>
+	<summary>
+		<b> 
+			<img src="img/sql.png" width="25px"/>
+			Aprendendo SQL
+		</b>
+	</summary>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Aprendendo_consultas/lista05.sql" style="margin-left:10%">Aprendendo Consultas</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_amigos/Tabela-amigos.sql" style="margin-left:10%">Tabela amigos</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_empresa/Tabela-empresa.sql" style="margin-left:10%">Tabela empresa</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_escola/SQL-Escola.sql" style="margin-left:10%">Tabela escola</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_EuCosinheiro/SQL-eucozinho.sql" style="margin-left:10%">Tabela EuCosinheiro</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_EverNote/Tabela-evernote.sql" style="margin-left:10%">Tabela EverNote</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_loja/base.sql" style="margin-left:10%">Tabela loja</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_produto/tabela-produto.sql" style="margin-left:10%">Tabela produto</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_uber/Tabela-uber.sql" style="margin-left:10%">Tabela uber</a>
+	<br>
+</details>
 
-* [Aprendendo python](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Python)
-  * [Entrada_E_Saida](https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Entrada_E_Saida/main.py)
-  * [Estrutura_Condicional](https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Estrutura_Condicional/main.py)
-  * [Extrutura_De_Repeticao](https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Extrutura_De_Repeticao/main.py)
-  * [Strings](https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Strings/main.py)
-  * [Sequencias](https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Sequencias/main.py)
-  * [Listas]( https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Listas/main.py)
-  * [Procedimentos](https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Procedimentos/main.py)
-  * [Funcoes](https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Funcoes/main.py)
-  * [Matrizes](https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Matrizes/main.py)
-  * [Arquivos](https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Arquivos/main.py)
-  * [Orientacao_A_Objetos](https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Orientacao_A_Objetos/main.py)
-  * [Pyxel](https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Pyxel/main.py)
+<br>
+
+<details>
+	<summary>
+		<b> 
+			<img src="img/python.png" width="25px"/>
+			Aprendendo python
+		</b>
+	</summary>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Entrada_E_Saida/main.py" style="margin-left:10%">Entradas e saidas</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Estrutura_Condicional/main.py" style="margin-left:10%">Estrutura condicional</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Extrutura_De_Repeticao/main.py" style="margin-left:10%">Extrutura de repeticao</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Strings/main.py" style="margin-left:10%">Strings</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Sequencias/main.py" style="margin-left:10%">Sequências</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Listas/main.py" style="margin-left:10%">Listas</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Procedimentos/main.py" style="margin-left:10%">Procedimentos</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Funcoes/main.py" style="margin-left:10%">Funções</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Matrizes/main.py" style="margin-left:10%">Matrizes</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Arquivos/main.py" style="margin-left:10%">Arquivos</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Orientacao_A_Objetos/main.py" style="margin-left:10%">Orientação a objetos</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Pyxel/main.py" style="margin-left:10%">Pyxel</a>
+</details>
