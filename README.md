@@ -29,7 +29,6 @@
 
 <br>
 
-
 <details>
 	<summary>
 		<b> 
@@ -46,49 +45,75 @@
 <details>
 	<summary>
 		<b> 
-			<img src="img/github.png" width="25px"/>
-			Aprendendo GIT - GITHUB
+			<img src="img/java.png" width="25px"/>
+			Aprendendo Java
 		</b>
 	</summary>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/GIT-GITHUB/Comandos_Git.mkd" style="margin-left:10%">Comandos</a>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Java/Vetores/Vetores.java" style="margin-left:10%">Vetores</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Java/Listas/listas.java" style="margin-left:10%">Listas</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Java/HashMap/hashMap.java" style="margin-left:10%">HashMap</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Objetos" style="margin-left:10%">Orientação a objetos</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Java/Registros/registros.java" style="margin-left:10%">Registros</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Java/Heranca/Principal.java" style="margin-left:10%">Heranças</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Associacao_classes" style="margin-left:10%">Associação entre classes</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Classe_abstrata_polimorfismo" style="margin-left:10%">Polimorfismo e abstração</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Java/Conexao_BD/App.java" style="margin-left:10%">Java com Banco de Dados</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Java/Interface_grafica_JSwing/main/Principal.java" style="margin-left:10%">Interfaces gráficas</a>
 	<br>
 </details>
-* [Aprendendo HTML - CSS](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css)
-  * [Botoes animado](https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Botoes_animado/)
-  * [Carregamento neon](https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Carregamento_neon/)
-  * [Cartao flutuante](https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Cartao_flutuante/)
-  * [Home netflix](https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Home_netflix/)
-  * [Navbar dropOptions](https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Navbar_dropOptions/)
-  * [Projeto responsivo cinema](https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Projeto_responsivo_cinema/)
-  * [Seletor de cores](https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Seletor_de_cores/)
-  * [Social icon glass](https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Social_icon_glass/)
-  * [Texto 3d](https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Texto_3d/)
-  
+
 <br>
 
 <details>
 	<summary>
 		<b> 
-			<img src="img/github.png" width="25px"/>
-			Aprendendo GIT - GITHUB
+			<img src="img/htmlcss.png" width="25px"/>
+			Aprendendo HTML e CSS
 		</b>
 	</summary>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/GIT-GITHUB/Comandos_Git.mkd" style="margin-left:10%">Comandos</a>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Botoes_animado" style="margin-left:10%">Botoes animado</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Botoes_animado/" style="margin-left:10%">Demo</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Carousel" style="margin-left:10%">Carrossel de imagens</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Carousel/" style="margin-left:10%">Demo</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Carregamento_neon" style="margin-left:10%">Carregamento neon</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Carregamento_neon/" style="margin-left:10%">Demo</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Carrossel_Imagens" style="margin-left:10%">Carrossel de imagens automático</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Carrossel_Imagens" style="margin-left:10%">Demo</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Cartao_flutuante/" style="margin-left:10%">Cartão flutuante</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Cartao_flutuante/" style="margin-left:10%">Demo</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Home_netflix" style="margin-left:10%">Home Netflix</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Home_netflix" style="margin-left:10%">Demo</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/guilhermeamarilho.github.io" style="margin-left:10%">guilhermeamarilho.github.io</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/guilhermeamarilho.github.io" style="margin-left:10%">Demo</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/" style="margin-left:10%"></a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/" style="margin-left:10%">Demo</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/" style="margin-left:10%"></a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/" style="margin-left:10%">Demo</a>
+	<br>
+	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/" style="margin-left:10%"></a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/" style="margin-left:10%">Demo</a>
+	<br>
+	<a href="" style="margin-left:10%"></a>
+	<a href="" style="margin-left:10%">Demo</a>
 	<br>
 </details>
-
-* [Aprendendo Java](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java)
-  * [Vetores](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Vetores)
-  * [Listas](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Listas)
-  * [HashMap](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/HashMap)
-  * [Objetos](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Objetos)
-  * [Registros](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Registros)
-  * [Heranca](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Heranca)
-  * [Associacao entre classes](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Associacao_classes)
-  * [Classe abstrasta Polimorfismo](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Classe_abstrata_polimorfismo)
-  * [Conexao Banco de Dados](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Conexao_BD)
-  * [Interface grafica JSwing](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Interface_grafica_JSwing)
-  * [Projeto HelpDesk](https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Projeto_HelpDesk)
 
 <br>
 
