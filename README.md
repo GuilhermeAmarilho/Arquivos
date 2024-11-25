@@ -226,7 +226,9 @@
 		<br>
 		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Orientacao_A_Objetos/main.py" style="margin-left:15%">Orientação a objetos</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Pyxel/main.py" style="margin-left:15%">Pyxel</a>
+		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Bibliotecas/main.py" style="margin-left:15%">Pyxel</a>
+		<br>
+		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Bibliotecas" style="margin-left:15%">Bibliotecas para python</a>
 	</details>
 	
 </details>

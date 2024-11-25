@@ -1,0 +1,70 @@
+# Alguns apetrechos para python
+
+## Criação e inicialização do VENV
+- Crie um ambiente virtual para não rodar tudo na sua raiz, assim, não carrega tudo ao rodar uma aplicação.
+
+- Rode no terminal:
+    - Vai ir para a raiz do HD
+        - cd c:/
+    - Crie o ambiente virtual
+        - python -m venv <nome_escolhido>
+    - Ative o ambiente virtual
+        - \\\<nome_ambiente>\Scripts\activate
+    - Para ativar no linux
+        - source <nome_ambiente>/bin/activate
+    - Para desativar
+        - source meu_ambiente_virtual/bin/deactivate
+
+## Bibliotecas aprendidas
+- Reconhecimento de fala:
+    - Biblioteca para realização de reconhecimento de fala, com suporte a diversos mecanismos e APIs, online e offline.
+    - [Acesse a documentação](documentacao/SpeechRecognition.md)
+    - [Acesse o código base](codigos/SpeechRecognition.py)
+- Reconhecimento de imagens (A começar)
+    - PyTorch é uma biblioteca de tensores otimizada para aprendizado profundo usando GPUs e CPUs.
+    - [Acesse a documentação](documentacao/PyTorch.md)
+    - [Acesse o código base](codigos/PyTorch.py)
+- Inteligência artificial
+    - A API OpenAI fornece uma interface simples para modelos de IA de última geração para processamento de linguagem natural, geração de imagens, pesquisa semântica e reconhecimento de fala.
+    - [Acesse a documentação](documentacao/OpenAi.md)
+    - [Acesse o código base](codigos/OpenAi.py)
+- Turtle
+    - O Python Turtle é uma biblioteca gráfica que permite criar desenhos e gráficos de forma interativa e educativa.
+    - Era para ser ColabTurtlePlus, porém, ele é voltado para o colab, e o turtle é nativo para o python
+    - [Acesse a documentação](documentacao/Turtle.md)
+    - [Acesse o código base](codigos/Turtle.py)
+- PyAutoGUI
+    - O PyAutoGUI é uma biblioteca Python que permite automatizar a interação com a interface gráfica do usuário (GUI).
+    - [Acesse a documentação](documentacao/PyAutoGUI.md)
+    - [Acesse o código base](codigos/PyAutoGUI.py)
+- Pillow
+    - O Pillow é uma biblioteca Python para manipulação de imagens.
+    - [Acesse a documentação](documentacao/Pillow.md)
+    - [Acesse o código base](codigos/Pillow.py)
+- SpotDL
+    - O SpotDL é uma ferramenta Python que permite baixar músicas do Spotify em formato MP3 de forma simples e eficiente.
+    - [Acesse a documentação](documentacao/SpotDL.md)
+- Web Scraping com Python (A começar)
+    - O web scraping em Python permite extrair dados de websites automaticament.
+    - [Acesse a documentação](documentacao/WebScraping.md)
+    - [Acesse o código base](codigos/WebScraping.py)
+- FuzzyWuzzy
+    - Biblioteca que usa a Distância de Levenshtein para calcular as diferenças entre sequências em um pacote simples de usar
+    - [Acesse a documentação](documentacao/FuzzyWuzzy.md)
+    - [Acesse o código base](codigos/FuzzyWuzzy.py)
+- ZipFile
+    - Compactador de arquivos em python
+    - [Acesse a documentação](documentacao/ZipFile.md)
+    - [Acesse o código base](codigos/ZipFile.py)
+- Request
+    - Request é uma biblioteca para fazer requisições HTTP em Python Possibilitado enviar e receber dados de forma intuitiva.
+    - [Acesse a documentação](documentacao/Request.md)
+    - [Acesse o código base](codigos/Request.py)
+- .env
+    - Biblioteca para reconhecer e manusear arquivos .env
+    - [Acesse a documentação](documentacao/DotEnv.md)
+    - [Acesse o código base](codigos/DotEnv.py)
+- PyQt
+    - Biblioteca para criar interfaces gráficas
+    - [Acesse a documentação](documentacao/PyQt.md)
+    - [Acesse o código base](codigos/PyQt.py)
