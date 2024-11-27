@@ -230,8 +230,4 @@
 		<br>
 		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Bibliotecas" style="margin-left:15%">Bibliotecas para python</a>
 	</details>
-	
 </details>
-
-
-a
