@@ -68,3 +68,7 @@
     - Biblioteca para criar interfaces gráficas
     - [Acesse a documentação](documentacao/PyQt.md)
     - [Acesse o código base](codigos/PyQt.py)
+- Psycopg2
+    - Biblioteca para criar e administrar banco de dados com PostgreSQL
+    - [Acesse a documentação](documentacao/Psycopg2.md)
+    - [Acesse o código base](codigos/Psycopg2.py)

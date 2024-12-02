@@ -204,6 +204,8 @@
 				Aprendendo python
 			</b>
 		</summary>
+		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Comandos_Basicos/main.py" style="margin-left:15%">Comandos básicos</a>
+		<br>
 		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Entrada_E_Saida/main.py" style="margin-left:15%">Entradas e saidas</a>
 		<br>
 		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Estrutura_Condicional/main.py" style="margin-left:15%">Estrutura condicional</a>
@@ -229,6 +231,8 @@
 		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Arquivos_Com_POO/main.py" style="margin-left:15%">Arquivos com POO</a>
 		<br>
 		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Bibliotecas/main.py" style="margin-left:15%">Pyxel</a>
+		<br>
+		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/DB_PostgreSQL/main.py" style="margin-left:15%">Banco de dados PostgreSQL</a>
 		<br>
 		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Bibliotecas" style="margin-left:15%">Bibliotecas para python</a>
 	</details>

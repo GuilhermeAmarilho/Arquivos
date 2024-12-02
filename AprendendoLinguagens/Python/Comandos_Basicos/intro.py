@@ -2,7 +2,7 @@
 print("")
 #pegando dados
 
-input('informe o nome: ')
+nome = input('informe o nome: ')
 
 type(nome) #str
 
@@ -15,15 +15,15 @@ float()
 
 #operadores
 
-2  +  2 = 4
-2  -  2 = 0
-2  *  4 = 8 
-9  %  3 = 0
-3  %  9 = 3
-3  ** 3 = 27    #(potencia)
-20 /  8 = 2.5
-20 // 8 = 2     #(apenas divisao exata)
-"banana"*3 =    "bananabananabanana"
+2  +  2 # 4
+2  -  2 # 0
+2  *  4 # 8 
+9  %  3 # 0
+3  %  9 # 3
+3  ** 3 # 27    #(potencia)
+20 /  8 # 2.5
+20 // 8 # 2     #(apenas divisao exata)
+"banana"*3 # "bananabananabanana"
 2 >  5 #false
 2 <  5 #true
 3 >= 4 #false
@@ -36,7 +36,7 @@ float()
 
 #funcoes
 
-x= input("digite um numero: ")
+x= int(input("digite um numero: "))
 
 if x<10:
     print("menor que 10")
@@ -47,16 +47,16 @@ else:
 
 x=0
 while x<=10:
-    print(“x: {}”.format(x))
+    print('x: {}'.format(x))
     x=x+1
 print("fim:fora do while")
 
 #var: existirá apenas no bloco do loop
 #Var iterável: uma lista ou range por exemplo
-#Range() define uma sequencia de números
+#range() define uma sequencia de números
 range(5)      #de 0 a 5 com incremento de 1
-Range(2,8)    #de 2 a 8 com incremento de 1
-Range(5,15,3) #de 5 a 15 com incremento de 3
+range(2,8)    #de 2 a 8 com incremento de 1
+range(5,15,3) #de 5 a 15 com incremento de 3
 for x in range(10):
     print("x: {}".format(x))
 print("acabou")
@@ -71,15 +71,13 @@ print(  soma(2) ) #12
 print(  soma(3,5)   ) #8
 
 #string
-(pega o correspondente a posicao
-pega ate o anterior a essa posicao
-a cada quantos caracteres ele se repete)
-a = "123456789"
-a[1] = "2"
-a[-1] = "9"
-a[1:4] = "234"
-a[:4] = "1234" 
-a[3:] = "456789"
+#(pega o correspondente a posicao pega ate o anterior a essa posicao a cada quantos caracteres ele se repete)
+a = '123456789'
+a[1] # "2"
+a[-1] # "9"
+a[1:4] # "234"
+a[:4] # "1234" 
+a[3:] # "456789"
 a = "abcdefghijklmno" 
 a[1:10:4]
 
@@ -99,8 +97,8 @@ i.sort() # ["a","ab","agua","refri"]
 len(i) # 4
 
 #tupla
-i = tuple(2,4,6)
-print(i) # ()
+i =(2,4,6)
+print(i) # (2, 4, 6)
 
 #dict
 
@@ -111,7 +109,6 @@ d['nome'] = 'gui'
 d['nome'] # gui
 
 d.pop('sexo') # Masculino (dps disso apaga)
-d.popitem('nome') # gui (não apaga)
 d.keys() # nome, idade
 d.values() # gui, 18
 d.items() # (nome, idade) , (gui,18)
@@ -124,6 +121,5 @@ d.items() # (nome, idade) , (gui,18)
 from datetime import datetime #sempre tem q ter
 d = datetime(2019,3,12,15,10,10,123456) 
 e = datetime.today()
-
-
-
+print(d)
+print(e)
