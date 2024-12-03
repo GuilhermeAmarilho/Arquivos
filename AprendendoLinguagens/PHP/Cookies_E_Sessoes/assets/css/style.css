@@ -1,0 +1,111 @@
+:root{
+    --bg: linear-gradient(90deg, hsl(22, 89%, 29%) 0%, hsl(313, 88%, 20%) 100%);
+    --bg-items: linear-gradient(90deg, hsl(22, 87%, 41%) 0%, hsl(313, 83%, 34%) 100%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0;
+}
+div.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100vw 100vh;
+}
+div.login form{
+    position: relative;
+    display: flex;
+    width: 60%;
+    height: 80vh;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 35px;
+    transition: 1s;
+    padding-bottom: 2vw;
+    justify-content: space-evenly;
+    background: var(--bg-items);
+    /* left: -100%; */
+    transition: 2s;
+}   
+
+div.login h1{
+    letter-spacing: 0.2vw;
+    font-weight: 600;
+    font-size: 2.5em;
+    padding: 3vw 0vw;
+}
+
+div.login form input{
+    width: 60%;
+    height: 1.5 em;
+    padding: .8vw 3vw;
+    display: block;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 2vw;
+    color: aliceblue;
+    border-radius: 20px;
+    background: none;
+    border: 1px solid aqua;
+}
+div.login div{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+div.login div button{
+    border: none;
+    background: none;
+    color: white;
+    padding: 0.5vw 3vw;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+div.login div button a{
+    text-decoration: none;
+    color: white;
+}
+div.login p{
+    font-size: 1.5em;
+    padding: 3vw 0 0 0;
+}
+html{
+    background: var(--bg);   
+}
+main{
+    padding: 3vw 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    height: 80vh;
+}
+main h1{
+    padding: 1vw 0 4vw 0;
+}
+main h2{
+    padding-bottom: 2vw;
+}
+main p{
+    font-size: 1.3em;
+    padding: 1vw 0;
+}
+main a{
+    margin-top: 3vw;
+    color: white;
+    text-decoration: none;
+    padding: 0.5vw 2vw;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
