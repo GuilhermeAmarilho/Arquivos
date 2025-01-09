@@ -72,3 +72,7 @@
     - Biblioteca para criar e administrar banco de dados com PostgreSQL
     - [Acesse a documentação](documentacao/Psycopg2.md)
     - [Acesse o código base](codigos/Psycopg2.py)
+- Pyxel
+    - Biblioteca para a criação de jogos retro com python
+    - [Acesse a documentação](documentacao/Pyxel.md)
+    - [Acesse o código base](codigos/Pyxel.py)
