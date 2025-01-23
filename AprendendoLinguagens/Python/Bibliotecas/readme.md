@@ -76,3 +76,7 @@
     - Biblioteca para a criação de jogos retro com python
     - [Acesse a documentação](documentacao/Pyxel.md)
     - [Acesse o código base](codigos/Pyxel.py)
+- Flask
+    - Biblioteca para a criação de paginas web com python
+    - [Acesse a documentação](documentacao/Flask.md)
+    - [Acesse o código base](codigos/Flask.py)
