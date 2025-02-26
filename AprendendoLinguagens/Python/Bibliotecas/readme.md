@@ -80,3 +80,13 @@
     - Biblioteca para a criação de paginas web com python
     - [Acesse a documentação](documentacao/Flask.md)
     - [Acesse o código base](codigos/Flask.py)
+- Abordagens para aceleração de código
+    - Threds
+        - Multithreading é útil para tarefas que envolvam muitas operações de espera ou I/O. 
+        - [Acesse a documentação](documentacao/Threds.md)
+        - [Acesse o código base](codigos/Threds.py)
+    - Multiprocessing
+        - Multiprocessing quando o desafio for realizar operações pesadas de processamento, aproveitando múltiplos núcleos da CPU.
+        - [Acesse a documentação](documentacao/Multiprocessing.md)
+        - [Acesse o código base](codigos/Multiprocessing.py)
+    
