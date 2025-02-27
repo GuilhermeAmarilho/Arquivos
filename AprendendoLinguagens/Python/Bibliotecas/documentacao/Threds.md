@@ -48,4 +48,4 @@
     - O uso de lock (mutex) evita que duas threads atualizem o contador ao mesmo tempo, garantindo resultados corretos.
 
 ### Exemplo prático
-- [Acesse o código base](/codigos/Threds.py)
+- [Acesse o código base](../codigos/Threds.py)

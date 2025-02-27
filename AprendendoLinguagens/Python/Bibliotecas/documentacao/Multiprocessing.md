@@ -24,4 +24,4 @@
 - 
 
 ### Exemplo prático
-- [Acesse o código base](/codigos/Threds.py)
+- [Acesse o código base](../codigos/Multiprocessing.py)
