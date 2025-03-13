@@ -14,14 +14,14 @@
 - Isolamento de Memória:
     - Processos não compartilham memória por padrão. Isso melhora a segurança e estabilidade, mas exige mecanismos explícitos de comunicação se for necessário compartilhar dados (como Queue, Pipe ou Manager).
          > A biblioteca multiprocessing oferece diversas formas de comunicação e compartilhamento de dados entre processos. Entre elas, destacam-se o uso de Queue, Pipe e Manager. 
-    - Queue
-
-
-
-
 - Sincronização e Comunicação:
     - Assim como o módulo threading oferece locks, semáforos e outros mecanismos de sincronização, o multiprocessing fornece suas próprias versões adaptadas para processos, como Lock, Semaphore, Event e Barrier.
-- 
+## Tipos de multiprocessing
+Usar Process oferece controle total sobre cada processo, enquanto o Pool abstrai a criação e o gerenciamento dos processos, distribuindo as tarefas de forma automática.
+- Pool
+    - Ideal para executar um grande número de tarefas semelhantes, como aplicar uma função a uma lista de itens.
+- Process
+    - Melhor para tarefas distintas ou quando você precisa de um controle fino sobre cada processo.
 
 ### Exemplo prático
 - [Acesse o código base](../codigos/Multiprocessing.py)
