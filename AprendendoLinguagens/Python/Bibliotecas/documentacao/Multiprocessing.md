@@ -3,7 +3,7 @@
     > import multiprocessing
 - Inicialmente, a sub-biblioteca pool será suficiente
     > from multiprocessing import Pool
-## Conceito:
+## Conceito: 
 - Processos Independentes:
     - Ao contrário do multithreading, que utiliza threads dentro de um mesmo processo, a biblioteca multiprocessing cria processos separados. Cada processo tem seu próprio interpretador Python e espaço de memória, o que permite executar tarefas em paralelo sem as limitações do GIL (Global Interpreter Lock).
 - Paralelismo Real:
