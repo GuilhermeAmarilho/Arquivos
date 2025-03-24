@@ -13,15 +13,18 @@
     - Por cada processo ter seu próprio interpretador, o GIL não restringe a execução paralela de tarefas CPU-bound, permitindo ganho de performance em cálculos intensivos.
 - Isolamento de Memória:
     - Processos não compartilham memória por padrão. Isso melhora a segurança e estabilidade, mas exige mecanismos explícitos de comunicação se for necessário compartilhar dados (como Queue, Pipe ou Manager).
-         > A biblioteca multiprocessing oferece diversas formas de comunicação e compartilhamento de dados entre processos. Entre elas, destacam-se o uso de Queue, Pipe e Manager. 
-- Sincronização e Comunicação:
-    - Assim como o módulo threading oferece locks, semáforos e outros mecanismos de sincronização, o multiprocessing fornece suas próprias versões adaptadas para processos, como Lock, Semaphore, Event e Barrier.
-## Tipos de multiprocessing
-Usar Process oferece controle total sobre cada processo, enquanto o Pool abstrai a criação e o gerenciamento dos processos, distribuindo as tarefas de forma automática.
-- Pool
-    - Ideal para executar um grande número de tarefas semelhantes, como aplicar uma função a uma lista de itens.
-- Process
-    - Melhor para tarefas distintas ou quando você precisa de um controle fino sobre cada processo.
+- Overhead:
+    - A criação de processos é mais custosa em termos de tempo e memória se comparada à criação de threads. Assim, é importante usar multiprocessing para tarefas que realmente se beneficiem do paralelismo, como cálculos intensivos ou processamento pesado.
+### Pool VS Process:
+- #### Controle vs. Abstração:
+    - Usar Process oferece controle total sobre cada processo, enquanto o Pool abstrai a criação e o gerenciamento dos processos, distribuindo as tarefas de forma automática.
+- #### Cenário de Uso:
+    - Process: 
+        - Melhor para tarefas distintas ou quando você precisa de um controle fino sobre cada processo.
+    
+    - Pool: 
+        - Ideal para executar um grande número de tarefas semelhantes, como aplicar uma função a uma lista de itens.
+    - A escolha entre os dois métodos depende do contexto da sua aplicação e do tipo de tarefas que você precisa executar em paralelo.
 
 ### Exemplo prático
-- [Acesse o código base](../codigos/Multiprocessing.py)
+- [Acesse o código base](.. /codigos/Multiprocessing.py)
