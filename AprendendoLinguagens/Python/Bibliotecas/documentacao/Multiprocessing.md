@@ -27,4 +27,4 @@
     - A escolha entre os dois métodos depende do contexto da sua aplicação e do tipo de tarefas que você precisa executar em paralelo.
 
 ### Exemplo prático
-- [Acesse o código base](.. /codigos/Multiprocessing.py)
+- [Acesse o código base](../codigos/Multiprocessing.py)
