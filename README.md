@@ -1,37 +1,65 @@
-# Aprendendo linguagens
+# 📚 Biblioteca de Linguagens
 
-## Arquivos criados durante minha vida acadêmica
-<details>
+Bem-vindo à minha **Biblioteca de Linguagens** – um repositório dedicado aos arquivos, exercícios e projetos que desenvolvi ao longo da minha jornada acadêmica como programador. Aqui você encontrará desde os primeiros passos com `printf` e estruturas básicas em C até estruturas avançadas como listas encadeadas, árvores binárias, hashing e conceitos iniciais de orientação a objetos.
+
+Este espaço foi criado para **organizar meu progresso, registrar minha evolução e facilitar revisões futuras**, além de servir como um portfólio técnico e fonte de consulta pessoal.
+
+---
+
+📌 **Propósitos deste repositório:**
+- Acompanhar minha curva de aprendizado em diferentes linguagens
+- Centralizar exercícios resolvidos e práticas guiadas por professores
+- Mostrar minha progressão, da base até conceitos mais avançados
+- Compartilhar com colegas e professores, como material de referência
+
+---
+
+> ✔️ Cada pasta contém exercícios práticos e arquivos comentados para facilitar a leitura e o estudo posterior.
+
+<details style="margin-left:10%">
 	<summary>
-		<b>
-			<img src="Assets/img/aprendendo.png" width="25px"/>
-			Aprendendo linguagens
+		<b> 
+			<img src="Assets/img/c.png" width="25px"/>
+			Aprendendo C
 		</b>
 	</summary>
-	<details style="margin-left:10%">
-		<summary>
-			<b> 
-				<img src="Assets/img/c.png" width="25px"/>
-				Aprendendo C
-			</b>
-		</summary>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/C/Exercicios_basicos/exercicios_basicos.c" style="margin-left:15%">Exercícios básicos</a>
-		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/C/Matriz_e_Vetor/exercicios_matrizes_vetores.c" style="margin-left:15%">Matrizes e vetores</a>
-		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/C/Numero_random/exercicio_random.c" style="margin-left:15%">Números randomicos</a>
-		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/C/Registros/exercicio_carro_sem_ponteiro.c" style="margin-left:15%">Registros</a>
-		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/C/Registro_ponteiro/exercicio_escola_Ponteiro.c" style="margin-left:15%">Ponteiro</a>
-		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/C/Projeto_Trade/trade.c" style="margin-left:15%">Projeto Trade</a>
-		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/C/Projeto_aproximacao_MonteCarlo/RELAT%C3%93RIO%20DE%20TRABALHO%20FINAL.c" style="margin-left:15%">Projeto aproximacao MonteCarlo</a>
-		<br>
-		<a href="" style="margin-left:15%"></a>
-		<br>
-	</details>
+	<a href="/AprendendoLinguagens/C/Estrutura_basica/main.c" style="margin-left:15%">Exercícios básicos</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Estrutura_de_selecao/main.c" style="margin-left:15%">Estrutura de selecao</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Estrutura de repeticao/main.c" style="margin-left:15%">Estrutura de Repeticao</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Matrizes_E_Vetores/main.c" style="margin-left:15%">Matrizes e Vetores</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Modularizacao/main.c" style="margin-left:15%">Modularização</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Ponteiros/main.c" style="margin-left:15%">Ponteiros</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Alocacao_dinamica_de_memoria/alocacao_em_vetor_dinamico.c" style="margin-left:15%">Alocação Dinâmica de Memória</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Lista_encadeada/main.c" style="margin-left:15%">Lista Encadeada</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Lista_encadeada_dupla/main.c" style="margin-left:15%">Lista Encadeada Dupla</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Lisca_encadeada_FIFO/main.c" style="margin-left:15%">Lista Encadeada FIFO</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Lista_encadeada_LIFO/main.c" style="margin-left:15%">Lista Encadeada LIFO</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Busca_linear/main.c" style="margin-left:15%">Busca Linear</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Busca_binaria/Busca_Binaria.c" style="margin-left:15%">Busca Binaria</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Quick Sort" style="margin-left:15%">Quick Sort</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Arvore_Busca_Binaria/main.c" style="margin-left:15%">Arvore Busca Binaria</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Arvore_Busca_Balanceada/main.c" style="margin-left:15%">Arvore Busca Balanceada</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Hashing/hash_varios_dados.c" style="margin-left:15%">Hashing</a>
+	<br>
+	<a href="/AprendendoLinguagens/C/Orientacao_A_Objetos/main.c" style="margin-left:15%">Orientacao A Objetos</a>
+	<br>
+</details>
 	<details style="margin-left:10%">
 		<summary>
 			<b> 
@@ -39,7 +67,7 @@
 				Aprendendo GIT - GITHUB
 			</b>
 		</summary>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/GIT-GITHUB/Comandos_Git.mkd" style="margin-left:15%">Comandos</a>
+		<a href="/AprendendoLinguagens/GIT-GITHUB/Comandos_Git.mkd" style="margin-left:15%">Comandos</a>
 		<br>
 	</details>
 	<details style="margin-left:10%">
@@ -49,25 +77,25 @@
 				Aprendendo Java
 			</b>
 		</summary>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Java/Vetores/Vetores.java" style="margin-left:15%">Vetores</a>
+		<a href="/AprendendoLinguagens/Java/Vetores/Vetores.java" style="margin-left:15%">Vetores</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Java/Listas/listas.java" style="margin-left:15%">Listas</a>
+		<a href="/AprendendoLinguagens/Java/Listas/listas.java" style="margin-left:15%">Listas</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Java/HashMap/hashMap.java" style="margin-left:15%">HashMap</a>
+		<a href="/AprendendoLinguagens/Java/HashMap/hashMap.java" style="margin-left:15%">HashMap</a>
 		<br>
 		<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Objetos" style="margin-left:15%">Orientação a objetos</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Java/Registros/registros.java" style="margin-left:15%">Registros</a>
+		<a href="/AprendendoLinguagens/Java/Registros/registros.java" style="margin-left:15%">Registros</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Java/Heranca/Principal.java" style="margin-left:15%">Heranças</a>
+		<a href="/AprendendoLinguagens/Java/Heranca/Principal.java" style="margin-left:15%">Heranças</a>
 		<br>
 		<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Associacao_classes" style="margin-left:15%">Associação entre classes</a>
 		<br>
 		<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Classe_abstrata_polimorfismo" style="margin-left:15%">Polimorfismo e abstração</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Java/Conexao_BD/App.java" style="margin-left:15%">Java com Banco de Dados</a>
+		<a href="/AprendendoLinguagens/Java/Conexao_BD/App.java" style="margin-left:15%">Java com Banco de Dados</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Java/Interface_grafica_JSwing/main/Principal.java" style="margin-left:15%">Interfaces gráficas</a>
+		<a href="/AprendendoLinguagens/Java/Interface_grafica_JSwing/main/Principal.java" style="margin-left:15%">Interfaces gráficas</a>
 		<br>
 	</details>
 	<details style="margin-left:10%">
@@ -121,17 +149,17 @@
 				Aprendendo JQuery
 			</b>
 		</summary>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Jquery/Get_Starter/Funcao_base.js" style="margin-left:15%">Introdução</a>
+		<a href="/AprendendoLinguagens/Jquery/Get_Starter/Funcao_base.js" style="margin-left:15%">Introdução</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Jquery/Imprimindo_mensagem/jquery/impressao.js" style="margin-left:15%">Imprimindo mensagem</a>
+		<a href="/AprendendoLinguagens/Jquery/Imprimindo_mensagem/jquery/impressao.js" style="margin-left:15%">Imprimindo mensagem</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Jquery/Animando_div/index.html" style="margin-left:15%">Animações básicas</a>
+		<a href="/AprendendoLinguagens/Jquery/Animando_div/index.html" style="margin-left:15%">Animações básicas</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Jquery/Manipulacao_eventos/index.html" style="margin-left:15%">Manipulação de eventos</a>
+		<a href="/AprendendoLinguagens/Jquery/Manipulacao_eventos/index.html" style="margin-left:15%">Manipulação de eventos</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Jquery/Exemplo_json/Exemplo_dados_artistas.js" style="margin-left:15%">Exemplos de JSON</a>
+		<a href="/AprendendoLinguagens/Jquery/Exemplo_json/Exemplo_dados_artistas.js" style="margin-left:15%">Exemplos de JSON</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Jquery/Carregando_JSon/index.html" style="margin-left:15%">Carregar JSON com JQuery</a>
+		<a href="/AprendendoLinguagens/Jquery/Carregando_JSon/index.html" style="margin-left:15%">Carregar JSON com JQuery</a>
 		<br>
 	</details>
 	<details style="margin-left:10%">
@@ -204,36 +232,36 @@
 				Aprendendo python
 			</b>
 		</summary>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Comandos_Basicos/main.py" style="margin-left:15%">Comandos básicos</a>
+		<a href="/AprendendoLinguagens/Python/Comandos_Basicos/main.py" style="margin-left:15%">Comandos básicos</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Entrada_E_Saida/main.py" style="margin-left:15%">Entradas e saidas</a>
+		<a href="/AprendendoLinguagens/Python/Entrada_E_Saida/main.py" style="margin-left:15%">Entradas e saidas</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Estrutura_Condicional/main.py" style="margin-left:15%">Estrutura condicional</a>
+		<a href="/AprendendoLinguagens/Python/Estrutura_Condicional/main.py" style="margin-left:15%">Estrutura condicional</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Extrutura_De_Repeticao/main.py" style="margin-left:15%">Extrutura de repeticao</a>
+		<a href="/AprendendoLinguagens/Python/Extrutura_De_Repeticao/main.py" style="margin-left:15%">Extrutura de repeticao</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Strings/main.py" style="margin-left:15%">Strings</a>
+		<a href="/AprendendoLinguagens/Python/Strings/main.py" style="margin-left:15%">Strings</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Sequencias/main.py" style="margin-left:15%">Sequências</a>
+		<a href="/AprendendoLinguagens/Python/Sequencias/main.py" style="margin-left:15%">Sequências</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Listas/main.py" style="margin-left:15%">Listas</a>
+		<a href="/AprendendoLinguagens/Python/Listas/main.py" style="margin-left:15%">Listas</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Procedimentos/main.py" style="margin-left:15%">Procedimentos</a>
+		<a href="/AprendendoLinguagens/Python/Procedimentos/main.py" style="margin-left:15%">Procedimentos</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Funcoes/main.py" style="margin-left:15%">Funções</a>
+		<a href="/AprendendoLinguagens/Python/Funcoes/main.py" style="margin-left:15%">Funções</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Matrizes/main.py" style="margin-left:15%">Matrizes</a>
+		<a href="/AprendendoLinguagens/Python/Matrizes/main.py" style="margin-left:15%">Matrizes</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Arquivos/main.py" style="margin-left:15%">Arquivos</a>
+		<a href="/AprendendoLinguagens/Python/Arquivos/main.py" style="margin-left:15%">Arquivos</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Orientacao_A_Objetos/main.py" style="margin-left:15%">Orientação a objetos</a>
+		<a href="/AprendendoLinguagens/Python/Orientacao_A_Objetos/main.py" style="margin-left:15%">Orientação a objetos</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Arquivos_Com_POO/main.py" style="margin-left:15%">Arquivos com POO</a>
+		<a href="/AprendendoLinguagens/Python/Arquivos_Com_POO/main.py" style="margin-left:15%">Arquivos com POO</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Bibliotecas/main.py" style="margin-left:15%">Pyxel</a>
+		<a href="/AprendendoLinguagens/Python/Bibliotecas/main.py" style="margin-left:15%">Pyxel</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/DB_PostgreSQL/main.py" style="margin-left:15%">Banco de dados PostgreSQL</a>
+		<a href="/AprendendoLinguagens/Python/DB_PostgreSQL/main.py" style="margin-left:15%">Banco de dados PostgreSQL</a>
 		<br>
-		<a href="https://github.com/GuilhermeAmarilho/Arquivos/blob/master/AprendendoLinguagens/Python/Bibliotecas" style="margin-left:15%">Bibliotecas para python</a>
+		<a href="/AprendendoLinguagens/Python/Bibliotecas" style="margin-left:15%">Bibliotecas para python</a>
 	</details>
 </details>
