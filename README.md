@@ -23,7 +23,7 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 			Aprendendo C
 		</b>
 	</summary>
-	<a href="AprendendoLinguagens/C/Estrutura_basica/main.c" style="margin-left:5%">Exercícios básicos</a>
+	<a href="AprendendoLinguagens/C/Estrutura_basica/main.c" style="margin-left:5%">Exercícios básicos</a>	
 	<br>
 	<a href="AprendendoLinguagens/C/Estrutura_de_selecao/main.c" style="margin-left:5%">Estrutura de selecao</a>
 	<br>
@@ -60,6 +60,7 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 	<a href="AprendendoLinguagens/C/Orientacao_A_Objetos/main.c" style="margin-left:5%">Orientacao A Objetos</a>
 	<br>
 </details>
+
 <details style="margin-left:5%">
 	<summary>
 		<b> 
@@ -67,9 +68,10 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 			Aprendendo GIT - GITHUB
 		</b>
 	</summary>
-	<a href="/AprendendoLinguagens/GIT-GITHUB/Comandos_Git.mkd" style="margin-left:5%">Comandos</a>
+	<a href="AprendendoLinguagens/GIT-GITHUB/Comandos_Git.mkd" style="margin-left:5%">Comandos</a>
 	<br>
 </details>
+
 <details style="margin-left:5%">
 	<summary>
 		<b> 
@@ -77,27 +79,28 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 			Aprendendo Java
 		</b>
 	</summary>
-	<a href="/AprendendoLinguagens/Java/Vetores/Vetores.java" style="margin-left:5%">Vetores</a>
+	<a href="AprendendoLinguagens/Java/Vetores/Vetores.java" style="margin-left:5%">Vetores</a>
 	<br>
-	<a href="/AprendendoLinguagens/Java/Listas/listas.java" style="margin-left:5%">Listas</a>
+	<a href="AprendendoLinguagens/Java/Listas/listas.java" style="margin-left:5%">Listas</a>
 	<br>
-	<a href="/AprendendoLinguagens/Java/HashMap/hashMap.java" style="margin-left:5%">HashMap</a>
+	<a href="AprendendoLinguagens/Java/Registros/registros.java" style="margin-left:5%">Registros</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Objetos" style="margin-left:5%">Orientação a objetos</a>
+	<a href="AprendendoLinguagens/Java/Objetos/Tempo.java" style="margin-left:5%">Orientação a objetos</a>
 	<br>
-	<a href="/AprendendoLinguagens/Java/Registros/registros.java" style="margin-left:5%">Registros</a>
+	<a href="AprendendoLinguagens/Java/Heranca/Principal.java" style="margin-left:5%">Heranças</a>
 	<br>
-	<a href="/AprendendoLinguagens/Java/Heranca/Principal.java" style="margin-left:5%">Heranças</a>
+	<a href="AprendendoLinguagens/Java/HashMap/hashMap.java" style="margin-left:5%">HashMap</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Associacao_classes" style="margin-left:5%">Associação entre classes</a>
+	<a href="AprendendoLinguagens/Java/Associacao_classes/Contato.java" style="margin-left:5%">Associação entre classes</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Java/Classe_abstrata_polimorfismo" style="margin-left:5%">Polimorfismo e abstração</a>
+	<a href="AprendendoLinguagens/Java/Classe_abstrata_polimorfismo/Funcionario.java" style="margin-left:5%">Polimorfismo e abstração</a>
 	<br>
-	<a href="/AprendendoLinguagens/Java/Conexao_BD/App.java" style="margin-left:5%">Java com Banco de Dados</a>
+	<a href="AprendendoLinguagens/Java/Conexao_BD/App.java" style="margin-left:5%">Java com Banco de Dados</a>
 	<br>
-	<a href="/AprendendoLinguagens/Java/Interface_grafica_JSwing/main/Principal.java" style="margin-left:5%">Interfaces gráficas</a>
+	<a href="AprendendoLinguagens/Java/Interface_grafica_JSwing/main/Principal.java" style="margin-left:5%">Interfaces gráficas</a>
 	<br>
 </details>
+
 <details style="margin-left:5%">
 	<summary>
 		<b> 
@@ -105,41 +108,41 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 			Aprendendo HTML e CSS
 		</b>
 	</summary>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Botoes_animado" style="margin-left:5%">Botoes animado</a>
-	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Botoes_animado/" style="margin-left:5%">Demo</a>
+	<a href="AprendendoLinguagens/Html-Css/Botoes_animado" style="margin-left:5%">Botoes animado</a>
+	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Botoes_animado/" style="margin-left:5%">Demo</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Carousel" style="margin-left:5%">Carrossel de imagens</a>
-	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Carousel/" style="margin-left:5%">Demo</a>
+	<a href="AprendendoLinguagens/Html-Css/Carousel" style="margin-left:5%">Carrossel de imagens</a>
+	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Carousel/" style="margin-left:5%">Demo</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Carregamento_neon" style="margin-left:5%">Carregamento neon</a>
-	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Carregamento_neon/" style="margin-left:5%">Demo</a>
+	<a href="AprendendoLinguagens/Html-Css/Carregamento_neon" style="margin-left:5%">Carregamento neon</a>
+	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Carregamento_neon/" style="margin-left:5%">Demo</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Carrossel_Imagens" style="margin-left:5%">Carrossel de imagens automático</a>
-	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Carrossel_Imagens" style="margin-left:5%">Demo</a>
+	<a href="AprendendoLinguagens/Html-Css/Carrossel_Imagens" style="margin-left:5%">Carrossel de imagens automático</a>
+	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Carrossel_Imagens" style="margin-left:5%">Demo</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Cartao_flutuante/" style="margin-left:5%">Cartão flutuante</a>
-	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Cartao_flutuante/" style="margin-left:5%">Demo</a>
+	<a href="AprendendoLinguagens/Html-Css/Cartao_flutuante/" style="margin-left:5%">Cartão flutuante</a>
+	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Cartao_flutuante/" style="margin-left:5%">Demo</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Home_netflix" style="margin-left:5%">Home Netflix</a>
-	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Home_netflix" style="margin-left:5%">Demo</a>
+	<a href="AprendendoLinguagens/Html-Css/Home_netflix" style="margin-left:5%">Home Netflix</a>
+	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Home_netflix" style="margin-left:5%">Demo</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/guilhermeamarilho.github.io" style="margin-left:5%">Primeiro portifólio</a>
-	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/guilhermeamarilho.github.io" style="margin-left:5%">Demo</a>
+	<a href="AprendendoLinguagens/Html-Css/guilhermeamarilho.github.io" style="margin-left:5%">Primeiro portifólio</a>
+	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/guilhermeamarilho.github.io" style="margin-left:5%">Demo</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Navbar_dropOptions" style="margin-left:5%">Navbar com drop</a>
-	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Navbar_dropOptions" style="margin-left:5%">Demo</a>
+	<a href="AprendendoLinguagens/Html-Css/Navbar_dropOptions" style="margin-left:5%">Navbar com drop</a>
+	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Navbar_dropOptions" style="margin-left:5%">Demo</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Projeto_responsivo_cinema" style="margin-left:5%">Projeto responsivo cinema</a>
-	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Projeto_responsivo_cinema" style="margin-left:5%">Demo</a>
+	<a href="AprendendoLinguagens/Html-Css/Projeto_responsivo_cinema" style="margin-left:5%">Projeto responsivo cinema</a>
+	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Projeto_responsivo_cinema" style="margin-left:5%">Demo</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Seletor_de_cores" style="margin-left:5%">Seletor de cores</a>
-	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Seletor_de_cores" style="margin-left:5%">Demo</a>
+	<a href="AprendendoLinguagens/Html-Css/Seletor_de_cores" style="margin-left:5%">Seletor de cores</a>
+	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Seletor_de_cores" style="margin-left:5%">Demo</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Social_icon_glass" style="margin-left:5%">Cartão social vitrificado</a>
-	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Social_icon_glass" style="margin-left:5%">Demo</a>
+	<a href="AprendendoLinguagens/Html-Css/Social_icon_glass" style="margin-left:5%">Cartão social vitrificado</a>
+	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Social_icon_glass" style="margin-left:5%">Demo</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Html-Css/Texto_3d" style="margin-left:5%">Texto 3d</a>
-	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Texto_3d" style="margin-left:5%">Demo</a>
+	<a href="AprendendoLinguagens/Html-Css/Texto_3d" style="margin-left:5%">Texto 3d</a>
+	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Texto_3d" style="margin-left:5%">Demo</a>
 	<br>
 </details>
 <details style="margin-left:5%">
@@ -149,17 +152,17 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 			Aprendendo JQuery
 		</b>
 	</summary>
-	<a href="/AprendendoLinguagens/Jquery/Get_Starter/Funcao_base.js" style="margin-left:5%">Introdução</a>
+	<a href="AprendendoLinguagens/Jquery/Get_Starter/Funcao_base.js" style="margin-left:5%">Introdução</a>
 	<br>
-	<a href="/AprendendoLinguagens/Jquery/Imprimindo_mensagem/jquery/impressao.js" style="margin-left:5%">Imprimindo mensagem</a>
+	<a href="AprendendoLinguagens/Jquery/Imprimindo_mensagem/jquery/impressao.js" style="margin-left:5%">Imprimindo mensagem</a>
 	<br>
-	<a href="/AprendendoLinguagens/Jquery/Animando_div/index.html" style="margin-left:5%">Animações básicas</a>
+	<a href="AprendendoLinguagens/Jquery/Animando_div/index.html" style="margin-left:5%">Animações básicas</a>
 	<br>
-	<a href="/AprendendoLinguagens/Jquery/Manipulacao_eventos/index.html" style="margin-left:5%">Manipulação de eventos</a>
+	<a href="AprendendoLinguagens/Jquery/Manipulacao_eventos/index.html" style="margin-left:5%">Manipulação de eventos</a>
 	<br>
-	<a href="/AprendendoLinguagens/Jquery/Exemplo_json/Exemplo_dados_artistas.js" style="margin-left:5%">Exemplos de JSON</a>
+	<a href="AprendendoLinguagens/Jquery/Exemplo_json/Exemplo_dados_artistas.js" style="margin-left:5%">Exemplos de JSON</a>
 	<br>
-	<a href="/AprendendoLinguagens/Jquery/Carregando_JSon/index.html" style="margin-left:5%">Carregar JSON com JQuery</a>
+	<a href="AprendendoLinguagens/Jquery/Carregando_JSon/index.html" style="margin-left:5%">Carregar JSON com JQuery</a>
 	<br>
 </details>
 <details style="margin-left:5%">
@@ -169,25 +172,25 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 			Aprendendo JavaScript
 		</b>
 	</summary>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Strings/contagem%20de%20letra.html" style="margin-left:5%">Strings</a>
+	<a href="AprendendoLinguagens/Js/Strings/contagem%20de%20letra.html" style="margin-left:5%">Strings</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Numeros_complexos/NumerosComplexos.js" style="margin-left:5%">Numeros complexos</a>
+	<a href="AprendendoLinguagens/Js/Numeros_complexos/NumerosComplexos.js" style="margin-left:5%">Numeros complexos</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Exercicios_JS" style="margin-left:5%">Lista de xercicios</a>
+	<a href="AprendendoLinguagens/Js/Exercicios_JS" style="margin-left:5%">Lista de xercicios</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Registros" style="margin-left:5%">Registros</a>
+	<a href="AprendendoLinguagens/Js/Registros" style="margin-left:5%">Registros</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Objetos" style="margin-left:5%">Orientação de objetos</a>
+	<a href="AprendendoLinguagens/Js/Objetos" style="margin-left:5%">Orientação de objetos</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Eventos_basico/index.html" style="margin-left:5%">Eventos básico</a>
+	<a href="AprendendoLinguagens/Js/Eventos_basico/index.html" style="margin-left:5%">Eventos básico</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Eventos_cinema/trabalhodocinema.html" style="margin-left:5%">Eventos cinema</a>
+	<a href="AprendendoLinguagens/Js/Eventos_cinema/trabalhodocinema.html" style="margin-left:5%">Eventos cinema</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/GoogleMaps/mapa.html" style="margin-left:5%">API Google Maps</a>
+	<a href="AprendendoLinguagens/Js/GoogleMaps/mapa.html" style="margin-left:5%">API Google Maps</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Projeto_Letroca/trabalho%20letroca.html" style="margin-left:5%">Projeto letroca</a>
+	<a href="AprendendoLinguagens/Js/Projeto_Letroca/trabalho%20letroca.html" style="margin-left:5%">Projeto letroca</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Js/Uno/uno%20modo%202.html" style="margin-left:5%">Projeto final - Uno</a>
+	<a href="AprendendoLinguagens/Js/Uno/uno%20modo%202.html" style="margin-left:5%">Projeto final - Uno</a>
 	<br>
 </details>
 <details style="margin-left:5%">
@@ -197,7 +200,7 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 			Aprendendo MarkDown
 		</b>
 	</summary>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Markdown/Comandos_MarkDown.mkd" style="margin-left:5%">Aprendendo MarkDown</a>
+	<a href="AprendendoLinguagens/Markdown/Comandos_MarkDown.mkd" style="margin-left:5%">Aprendendo MarkDown</a>
 </details>
 <details style="margin-left:5%">
 	<summary>
@@ -206,23 +209,23 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 			Aprendendo SQL
 		</b>
 	</summary>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Aprendendo_consultas/lista05.sql" style="margin-left:5%">Aprendendo Consultas</a>
+	<a href="AprendendoLinguagens/Sql/Aprendendo_consultas/lista05.sql" style="margin-left:5%">Aprendendo Consultas</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_amigos/Tabela-amigos.sql" style="margin-left:5%">Tabela amigos</a>
+	<a href="AprendendoLinguagens/Sql/Tabela_amigos/Tabela-amigos.sql" style="margin-left:5%">Tabela amigos</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_empresa/Tabela-empresa.sql" style="margin-left:5%">Tabela empresa</a>
+	<a href="AprendendoLinguagens/Sql/Tabela_empresa/Tabela-empresa.sql" style="margin-left:5%">Tabela empresa</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_escola/SQL-Escola.sql" style="margin-left:5%">Tabela escola</a>
+	<a href="AprendendoLinguagens/Sql/Tabela_escola/SQL-Escola.sql" style="margin-left:5%">Tabela escola</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_EuCosinheiro/SQL-eucozinho.sql" style="margin-left:5%">Tabela EuCosinheiro</a>
+	<a href="AprendendoLinguagens/Sql/Tabela_EuCosinheiro/SQL-eucozinho.sql" style="margin-left:5%">Tabela EuCosinheiro</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_EverNote/Tabela-evernote.sql" style="margin-left:5%">Tabela EverNote</a>
+	<a href="AprendendoLinguagens/Sql/Tabela_EverNote/Tabela-evernote.sql" style="margin-left:5%">Tabela EverNote</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_loja/base.sql" style="margin-left:5%">Tabela loja</a>
+	<a href="AprendendoLinguagens/Sql/Tabela_loja/base.sql" style="margin-left:5%">Tabela loja</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_produto/tabela-produto.sql" style="margin-left:5%">Tabela produto</a>
+	<a href="AprendendoLinguagens/Sql/Tabela_produto/tabela-produto.sql" style="margin-left:5%">Tabela produto</a>
 	<br>
-	<a href="https://github.com/GuilhermeAmarilho/Arquivos/tree/master/AprendendoLinguagens/Sql/Tabela_uber/Tabela-uber.sql" style="margin-left:5%">Tabela uber</a>
+	<a href="AprendendoLinguagens/Sql/Tabela_uber/Tabela-uber.sql" style="margin-left:5%">Tabela uber</a>
 	<br>
 </details>
 <details style="margin-left:5%">
@@ -232,35 +235,35 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 			Aprendendo python
 		</b>
 	</summary>
-	<a href="/AprendendoLinguagens/Python/Comandos_Basicos/main.py" style="margin-left:5%">Comandos básicos</a>
+	<a href="AprendendoLinguagens/Python/Comandos_Basicos/main.py" style="margin-left:5%">Comandos básicos</a>
 	<br>
-	<a href="/AprendendoLinguagens/Python/Entrada_E_Saida/main.py" style="margin-left:5%">Entradas e saidas</a>
+	<a href="AprendendoLinguagens/Python/Entrada_E_Saida/main.py" style="margin-left:5%">Entradas e saidas</a>
 	<br>
-	<a href="/AprendendoLinguagens/Python/Estrutura_Condicional/main.py" style="margin-left:5%">Estrutura condicional</a>
+	<a href="AprendendoLinguagens/Python/Estrutura_Condicional/main.py" style="margin-left:5%">Estrutura condicional</a>
 	<br>
-	<a href="/AprendendoLinguagens/Python/Extrutura_De_Repeticao/main.py" style="margin-left:5%">Extrutura de repeticao</a>
+	<a href="AprendendoLinguagens/Python/Extrutura_De_Repeticao/main.py" style="margin-left:5%">Extrutura de repeticao</a>
 	<br>
-	<a href="/AprendendoLinguagens/Python/Strings/main.py" style="margin-left:5%">Strings</a>
+	<a href="AprendendoLinguagens/Python/Strings/main.py" style="margin-left:5%">Strings</a>
 	<br>
-	<a href="/AprendendoLinguagens/Python/Sequencias/main.py" style="margin-left:5%">Sequências</a>
+	<a href="AprendendoLinguagens/Python/Sequencias/main.py" style="margin-left:5%">Sequências</a>
 	<br>
-	<a href="/AprendendoLinguagens/Python/Listas/main.py" style="margin-left:5%">Listas</a>
+	<a href="AprendendoLinguagens/Python/Listas/main.py" style="margin-left:5%">Listas</a>
 	<br>
-	<a href="/AprendendoLinguagens/Python/Procedimentos/main.py" style="margin-left:5%">Procedimentos</a>
+	<a href="AprendendoLinguagens/Python/Procedimentos/main.py" style="margin-left:5%">Procedimentos</a>
 	<br>
-	<a href="/AprendendoLinguagens/Python/Funcoes/main.py" style="margin-left:5%">Funções</a>
+	<a href="AprendendoLinguagens/Python/Funcoes/main.py" style="margin-left:5%">Funções</a>
 	<br>
-	<a href="/AprendendoLinguagens/Python/Matrizes/main.py" style="margin-left:5%">Matrizes</a>
+	<a href="AprendendoLinguagens/Python/Matrizes/main.py" style="margin-left:5%">Matrizes</a>
 	<br>
-	<a href="/AprendendoLinguagens/Python/Arquivos/main.py" style="margin-left:5%">Arquivos</a>
+	<a href="AprendendoLinguagens/Python/Arquivos/main.py" style="margin-left:5%">Arquivos</a>
 	<br>
-	<a href="/AprendendoLinguagens/Python/Orientacao_A_Objetos/main.py" style="margin-left:5%">Orientação a objetos</a>
+	<a href="AprendendoLinguagens/Python/Orientacao_A_Objetos/main.py" style="margin-left:5%">Orientação a objetos</a>
 	<br>
-	<a href="/AprendendoLinguagens/Python/Arquivos_Com_POO/main.py" style="margin-left:5%">Arquivos com POO</a>
+	<a href="AprendendoLinguagens/Python/Arquivos_Com_POO/main.py" style="margin-left:5%">Arquivos com POO</a>
 	<br>
-	<a href="/AprendendoLinguagens/Python/Bibliotecas/main.py" style="margin-left:5%">Pyxel</a>
+	<a href="AprendendoLinguagens/Python/Bibliotecas/main.py" style="margin-left:5%">Pyxel</a>
 	<br>
-	<a href="/AprendendoLinguagens/Python/DB_PostgreSQL/main.py" style="margin-left:5%">Banco de dados PostgreSQL</a>
+	<a href="AprendendoLinguagens/Python/DB_PostgreSQL/main.py" style="margin-left:5%">Banco de dados PostgreSQL</a>
 	<br>
-	<a href="/AprendendoLinguagens/Python/Bibliotecas" style="margin-left:5%">Bibliotecas para python</a>
+	<a href="AprendendoLinguagens/Python/Bibliotecas" style="margin-left:5%">Bibliotecas para python</a>
 </details>
