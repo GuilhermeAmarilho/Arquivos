@@ -16,6 +16,10 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 
 > ✔️ Cada pasta contém exercícios práticos e arquivos comentados para facilitar a leitura e o estudo posterior.
 
+---
+
+## 💾 Linguagens
+
 <details style="margin-left:5%">
 	<summary>
 		<b> 
@@ -109,42 +113,31 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 		</b>
 	</summary>
 	<a href="AprendendoLinguagens/Html-Css/Botoes_animado" style="margin-left:5%">Botoes animado</a>
-	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Botoes_animado/" style="margin-left:5%">Demo</a>
 	<br>
 	<a href="AprendendoLinguagens/Html-Css/Carousel" style="margin-left:5%">Carrossel de imagens</a>
-	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Carousel/" style="margin-left:5%">Demo</a>
 	<br>
 	<a href="AprendendoLinguagens/Html-Css/Carregamento_neon" style="margin-left:5%">Carregamento neon</a>
-	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Carregamento_neon/" style="margin-left:5%">Demo</a>
 	<br>
-	<a href="AprendendoLinguagens/Html-Css/Carrossel_Imagens" style="margin-left:5%">Carrossel de imagens automático</a>
-	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Carrossel_Imagens" style="margin-left:5%">Demo</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Carrossel_Imagens" style="margin-left:5%">Carrossel de imagens automático</a>
 	<br>
-	<a href="AprendendoLinguagens/Html-Css/Cartao_flutuante/" style="margin-left:5%">Cartão flutuante</a>
-	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Cartao_flutuante/" style="margin-left:5%">Demo</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Cartao_flutuante/" style="margin-left:5%">Cartão flutuante</a>
 	<br>
-	<a href="AprendendoLinguagens/Html-Css/Home_netflix" style="margin-left:5%">Home Netflix</a>
-	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Home_netflix" style="margin-left:5%">Demo</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Home_netflix" style="margin-left:5%">Home Netflix</a>
 	<br>
-	<a href="AprendendoLinguagens/Html-Css/guilhermeamarilho.github.io" style="margin-left:5%">Primeiro portifólio</a>
-	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/guilhermeamarilho.github.io" style="margin-left:5%">Demo</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/guilhermeamarilho.github.io" style="margin-left:5%">Primeiro portifólio</a>
 	<br>
-	<a href="AprendendoLinguagens/Html-Css/Navbar_dropOptions" style="margin-left:5%">Navbar com drop</a>
-	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Navbar_dropOptions" style="margin-left:5%">Demo</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Navbar_dropOptions" style="margin-left:5%">Navbar com drop</a>
 	<br>
-	<a href="AprendendoLinguagens/Html-Css/Projeto_responsivo_cinema" style="margin-left:5%">Projeto responsivo cinema</a>
-	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Projeto_responsivo_cinema" style="margin-left:5%">Demo</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Projeto_responsivo_cinema" style="margin-left:5%">Projeto responsivo cinema</a>
 	<br>
-	<a href="AprendendoLinguagens/Html-Css/Seletor_de_cores" style="margin-left:5%">Seletor de cores</a>
-	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Seletor_de_cores" style="margin-left:5%">Demo</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Seletor_de_cores" style="margin-left:5%">Seletor de cores</a>
 	<br>
-	<a href="AprendendoLinguagens/Html-Css/Social_icon_glass" style="margin-left:5%">Cartão social vitrificado</a>
-	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Social_icon_glass" style="margin-left:5%">Demo</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Social_icon_glass" style="margin-left:5%">Cartão social vitrificado</a>
 	<br>
-	<a href="AprendendoLinguagens/Html-Css/Texto_3d" style="margin-left:5%">Texto 3d</a>
-	<a href="https://guilhermeamarilho.github.io/ArquivosAprendendoLinguagens/Html-Css/Texto_3d" style="margin-left:5%">Demo</a>
+	<a href="https://guilhermeamarilho.github.io/Arquivos/AprendendoLinguagens/Html-Css/Texto_3d" style="margin-left:5%">Texto 3d</a>
 	<br>
 </details>
+
 <details style="margin-left:5%">
 	<summary>
 		<b> 
@@ -165,6 +158,7 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 	<a href="AprendendoLinguagens/Jquery/Carregando_JSon/index.html" style="margin-left:5%">Carregar JSON com JQuery</a>
 	<br>
 </details>
+
 <details style="margin-left:5%">
 	<summary>
 		<b> 
@@ -193,6 +187,7 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 	<a href="AprendendoLinguagens/Js/Uno/uno%20modo%202.html" style="margin-left:5%">Projeto final - Uno</a>
 	<br>
 </details>
+
 <details style="margin-left:5%">
 	<summary>
 		<b> 
@@ -202,6 +197,7 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 	</summary>
 	<a href="AprendendoLinguagens/Markdown/Comandos_MarkDown.mkd" style="margin-left:5%">Aprendendo MarkDown</a>
 </details>
+
 <details style="margin-left:5%">
 	<summary>
 		<b> 
@@ -228,6 +224,7 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 	<a href="AprendendoLinguagens/Sql/Tabela_uber/Tabela-uber.sql" style="margin-left:5%">Tabela uber</a>
 	<br>
 </details>
+
 <details style="margin-left:5%">
 	<summary>
 		<b> 
@@ -266,4 +263,5 @@ Este espaço foi criado para **organizar meu progresso, registrar minha evoluç�
 	<a href="AprendendoLinguagens/Python/DB_PostgreSQL/main.py" style="margin-left:5%">Banco de dados PostgreSQL</a>
 	<br>
 	<a href="AprendendoLinguagens/Python/Bibliotecas" style="margin-left:5%">Bibliotecas para python</a>
+	<br>
 </details>
