@@ -89,4 +89,6 @@
         - Multiprocessing quando o desafio for realizar operações pesadas de processamento, aproveitando múltiplos núcleos da CPU.
         - [Acesse a documentação](documentacao/Multiprocessing.md)
         - [Acesse o código base](codigos/Multiprocessing.py)
-    
+- CrewAI
+    - O CrewAI é um framework para criar e coordenar agentes de IA que colaboram em tarefas complexas usando LLMs.
+    - [Acesse a documentação](documentacao/CrewAI.md)
